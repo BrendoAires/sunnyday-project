@@ -37,7 +37,7 @@ body{
 }
 main{
     margin: 0 auto;
-    
+    width: var(--desktop-width);
     max-width: var(--desktop-width);
     
 
@@ -151,9 +151,7 @@ header{
     grid-auto-rows: minmax(0, auto);
     grid-column: 1/2;
     grid-row: 3;
-    width: 100vw;
-    max-width: var(--desktop-width);
-    
+    width: 100%;    
     margin: 0 auto;
      
 }
