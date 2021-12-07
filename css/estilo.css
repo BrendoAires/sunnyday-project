@@ -154,7 +154,7 @@ header nav .nav-bar ul li :hover {
   grid-column: 1/2;
   -ms-grid-row: 3;
   grid-row: 3;
-  width: 100%;
+  width: 1440px;
   margin: 0 auto;
 }
 
@@ -164,6 +164,7 @@ header nav .nav-bar ul li :hover {
   grid-column: 1/2;
   -ms-grid-row: 1;
   grid-row: 1;
+  min-width: 720px;
 }
 
 .grid2 {
@@ -171,6 +172,7 @@ header nav .nav-bar ul li :hover {
   grid-column: 2/2;
   -ms-grid-row: 1;
   grid-row: 1;
+  min-width: 720px;
 }
 
 .grid3 {
@@ -179,6 +181,7 @@ header nav .nav-bar ul li :hover {
   grid-column: 1/2;
   -ms-grid-row: 2;
   grid-row: 2;
+  min-width: 720px;
 }
 
 .grid4 {
@@ -186,14 +189,10 @@ header nav .nav-bar ul li :hover {
   grid-column: 2/2;
   -ms-grid-row: 2;
   grid-row: 2;
+  min-width: 720px;
 }
 
 .grid1, .grid4 {
-  height: 60vh;
-  width: 720px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding: 150px;
 }
 
@@ -237,10 +236,6 @@ header nav .nav-bar ul li :hover {
   text-transform: uppercase;
   font-weight: 900;
   color: var(--clr-very-blue);
-}
-
-.grid2, .grid3 {
-  height: 60vh;
 }
 
 .grid2 img, .grid3 img {

@@ -153,33 +153,34 @@ header{
     grid-auto-rows: minmax(0, auto);
     grid-column: 1/2;
     grid-row: 3;
-    width: 100%;    
+    width: 1440px;    
     margin: 0 auto;
      
 }
 .grid1{
     grid-column: 1/2;
     grid-row: 1;
+    min-width: 720px;
     
 }
 .grid2{
     grid-column: 2/2;
     grid-row: 1;
+    min-width: 720px;
 }
 .grid3{
     grid-column: 1/2;
     grid-row: 2;
+    min-width: 720px;
 }
 .grid4{
     grid-column: 2/2;
     grid-row: 2;
+    min-width: 720px;
 }
 
 .grid1, .grid4{
     
-    height: 60vh;
-    width: 720px;
-    display: flex;
     padding: 150px;
     
     
@@ -223,9 +224,6 @@ header{
 }
 .grid2, .grid3{
    
-    height: 60vh;
-    
-    
     img{
     
     background-size: cover;
