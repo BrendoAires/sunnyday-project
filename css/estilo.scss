@@ -30,15 +30,17 @@
     /*------TYPOGRAPHY------*/
     --tt-border: 1px solid red;
 }
+html{
+    max-width: var(--desktop-width);
+}
 body{
     font-size: var(--fs-18);
     background: var(--clr-white);
-    max-width: 1440px;
+    width: 100%;
 }
 main{
     margin: 0 auto;
-    width: var(--desktop-width);
-    max-width: var(--desktop-width);
+    width: 100%;
     
 
 }
