@@ -26,19 +26,27 @@
     --fw-600: 600;
     --fw-700: 700;
     --fw-900: 900;
+
+    /*------TYPOGRAPHY------*/
+    --tt-border: 1px solid red;
 }
 body{
     font-size: var(--fs-18);
+    width: var(--desktop-width);
+    background: var(--clr-white);
 }
-.container{
-    width: 100%;
+main{
+   margin: 0 auto;
+}
+
+.container-grid{
     
 }
 .flex{
     display: flex;
 }
 header{
-    height: 100vh;
+    height: 80vh;
     
 
         .img-header{
@@ -46,7 +54,7 @@ header{
             background-size: cover;
             background-repeat: no-repeat;
             width: 100%;
-            height: 100%;
+            height: 80%;
             position: absolute;
             z-index: -1;
             justify-content: center;
@@ -136,12 +144,16 @@ header{
 }
 .container-grid{
     display: grid;
-    
+    max-width: var(--desktop-width);
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(0, auto);
     grid-column: 2/2;
     grid-row: 3;
     width: 100%;
+        img{
+            background-size: contain;
+        }
+    
 }
 
 .grid1, .grid2, .grid3, .grid4, .grid5, .grid6{
@@ -149,7 +161,7 @@ header{
 }
 .grid1{
     height: 50vh;
-    
+    width: 100vw;
     display: grid;
     
 
@@ -157,7 +169,7 @@ header{
     grid-auto-rows: minmax(0, auto);
     width: 100%;
     
-    .container-grid{
+    .grid-interno{
         padding: 100px;
     
         h2{
@@ -182,10 +194,11 @@ header{
     
 }
 .grid2{
-    height: 50vh;
+   // height: 100%;
+    width: 50vw;
     grid-column: 2;
-    background: url("/img/desktop/image-transform.jpg")center;
-    background-size: auto;
+    //background: url("/img/desktop/image-transform.jpg") center center;
+    background-size: contain;
     
     
     
@@ -225,3 +238,5 @@ header{
         }
     }
 }
+
+
