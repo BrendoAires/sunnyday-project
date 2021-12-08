@@ -259,6 +259,7 @@ header nav .nav-bar ul li :hover {
 .grid2 img, .grid3 img, .grid5 img, .grid6 img {
   border: 1px solid red;
   height: 60vh;
+  width: 100%;
 }
 
 .grid2 .img, .grid3 .img {
