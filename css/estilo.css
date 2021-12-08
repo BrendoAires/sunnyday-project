@@ -255,10 +255,16 @@ header nav .nav-bar ul li :hover {
   color: var(--clr-very-blue);
 }
 
-.grid2 img, .grid3 img {
-  background-size: cover;
+.grid2 .img, .grid3 .img {
   width: 720px;
   height: 60vh;
+}
+
+.grid2 img, .grid3 img {
+  position: relative;
+  background-size: cover;
+  top: 0;
+  right: 0;
 }
 
 .grid5, .grid6 {

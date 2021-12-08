@@ -234,12 +234,18 @@ header{
     
 }
 .grid2, .grid3{
+
+    .img{
+        width: 720px;
+    height: 60vh;
+    
+    }
    
     img{
-    
-    background-size: cover;
-    width: 720px;
-    height: 60vh;
+        position: relative;
+        background-size: cover;
+        top:0;
+        right: 0;
     
     }
     
