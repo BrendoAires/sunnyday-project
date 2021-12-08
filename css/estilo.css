@@ -35,6 +35,7 @@ body {
   font-size: var(--fs-18);
   background: var(--clr-white);
   width: 100%;
+  margin: 0 auto;
 }
 
 main {
