@@ -58,7 +58,7 @@ header .img-header {
   background: url("/img/desktop/image-header.jpg") bottom center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: var(--desktop-width);
+  width: 100%;
   height: 80vh;
   position: absolute;
   z-index: -1;
