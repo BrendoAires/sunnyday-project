@@ -57,7 +57,7 @@ header{
     
 
         .img-header{
-            background: url("/img/desktop/image-header.jpg") bottom center;
+            background: url("/img/desktop/image-header.jpg") center bottom;
             background-size: cover;
             background-repeat: no-repeat;
             width: 100%;
@@ -70,7 +70,7 @@ header{
         .titulo{
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: center; 
             text-align: center;
 
             
@@ -156,7 +156,7 @@ header{
     grid-auto-rows: minmax(0, auto);
     grid-column: 1/2;
     grid-row: 3;
-    width: 1440px;    
+    width: 100%;    
     margin: 0 auto;
      
 }
