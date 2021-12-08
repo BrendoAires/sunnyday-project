@@ -31,7 +31,8 @@
     --tt-border: 1px solid red;
 }
 html{
-    max-width: var(--desktop-width);
+    
+    min-width:var(--desktop-width);
 }
 body{
     font-size: var(--fs-18);
@@ -52,14 +53,14 @@ main{
 }
 header{
     height: 80vh;
-    width: 100%;
+    width: var(--desktop-width);
     
 
         .img-header{
             background: url("/img/desktop/image-header.jpg") bottom center;
             background-size: cover;
             background-repeat: no-repeat;
-            width: 100%;
+            width: var(--desktop-width);
             height: 80vh;
             position: absolute;
             z-index: -1;
@@ -159,28 +160,36 @@ header{
     margin: 0 auto;
      
 }
+.container-grid > div{
+    width: 720px;
+}
 .grid1{
     grid-column: 1/2;
     grid-row: 1;
-    min-width: 720px;
     
 }
 .grid2{
     grid-column: 2/2;
     grid-row: 1;
-    min-width: 720px;
 }
 .grid3{
     grid-column: 1/2;
     grid-row: 2;
-    min-width: 720px;
 }
 .grid4{
     grid-column: 2/2;
     grid-row: 2;
-    min-width: 720px;
+    border: 1px solid red;
+}
+.grid5{
+    grid-column: 1/2;
+    grid-row: 3;
 }
 
+.grid6{
+    grid-column: 2/2;
+    grid-row: 3;
+}
 .grid1, .grid4{
     
     padding: 150px;
@@ -239,15 +248,14 @@ header{
     display: flex;
     justify-content:center;
     align-items:flex-end;
-    border: 1px solid red;
     height: 60vh;
-    width: 80%;
+    
     
        
         img{
             
             
-            max-width: 720px;
+            width: 720px;
             max-height: 60vh;
             
         }
