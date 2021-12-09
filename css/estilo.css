@@ -202,6 +202,7 @@ header nav .nav-bar ul li :hover {
 
 .container-grid > div {
   height: 60vh;
+  width: 720px;
 }
 
 .grid1, .grid4 {
@@ -252,6 +253,7 @@ header nav .nav-bar ul li :hover {
 
 .grid2 .img, .grid3 .img {
   height: inherit;
+  width: inherit;
 }
 
 .grid2 img, .grid3 img {
