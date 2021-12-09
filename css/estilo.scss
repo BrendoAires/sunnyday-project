@@ -160,24 +160,28 @@ header{
 .grid1{
     grid-column: 1/2;
     grid-row: 1;
-    
+    border: 1px solid red;
 }
 .grid2{
     grid-column: 2/2;
     grid-row: 1;
+    border: 1px solid red;
 }
 .grid3{
     grid-column: 1/2;
     grid-row: 2;
+    border: 1px solid red;
 }
 .grid4{
     grid-column: 2/2;
     grid-row: 2;
+    border: 1px solid red;
     
 }
 .grid5{
     grid-column: 1/2;
     grid-row: 3;
+    
 }
 
 .grid6{
