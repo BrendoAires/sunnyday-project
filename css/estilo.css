@@ -201,7 +201,7 @@ header nav .nav-bar ul li :hover {
 }
 
 .container-grid > div {
-  height: 60vh;
+  height: 600px;
   width: 100%;
 }
 
