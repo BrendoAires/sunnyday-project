@@ -262,6 +262,7 @@ header{
     align-items:flex-end;
     height: 60vh;
     position: relative;
+    width: inherit;
     
     
        
@@ -272,9 +273,8 @@ header{
         right: 0;
         z-index: 0;
         height:inherit;
-        width: 720px; 
-        height: inherit;
-        border: 1px solid yellow;
+        width: inherit;
+        
     }
             
         
