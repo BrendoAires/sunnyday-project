@@ -202,7 +202,7 @@ header nav .nav-bar ul li :hover {
 
 .container-grid > div {
   height: 60vh;
-  width: 720px;
+  width: 100%;
 }
 
 .grid1, .grid4 {
