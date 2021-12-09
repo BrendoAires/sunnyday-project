@@ -153,7 +153,6 @@ header nav .nav-bar ul li :hover {
   grid-row: 3;
   max-width: var(--desktop-width);
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .grid1 {
@@ -162,7 +161,6 @@ header nav .nav-bar ul li :hover {
   grid-column: 1/2;
   -ms-grid-row: 1;
   grid-row: 1;
-  border: 1px solid red;
 }
 
 .grid2 {
@@ -170,7 +168,6 @@ header nav .nav-bar ul li :hover {
   grid-column: 2/2;
   -ms-grid-row: 1;
   grid-row: 1;
-  border: 1px solid red;
 }
 
 .grid3 {
@@ -179,7 +176,6 @@ header nav .nav-bar ul li :hover {
   grid-column: 1/2;
   -ms-grid-row: 2;
   grid-row: 2;
-  border: 1px solid red;
 }
 
 .grid4 {
@@ -187,7 +183,6 @@ header nav .nav-bar ul li :hover {
   grid-column: 2/2;
   -ms-grid-row: 2;
   grid-row: 2;
-  border: 1px solid red;
 }
 
 .grid5 {
@@ -261,7 +256,6 @@ header nav .nav-bar ul li :hover {
   background-size: cover;
   top: 0;
   right: 0;
-  border: 1px solid red;
   height: inherit;
   width: inherit;
 }
@@ -280,7 +274,6 @@ header nav .nav-bar ul li :hover {
 }
 
 .grid5 img, .grid6 img {
-  border: 1px solid red;
   height: 60vh;
   width: 720px;
 }
