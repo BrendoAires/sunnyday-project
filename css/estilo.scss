@@ -30,19 +30,14 @@
     /*------TYPOGRAPHY------*/
     --tt-border: 1px solid red;
 }
-html{
-    
-    min-width:var(--desktop-width);
-}
+
 body{
     font-size: var(--fs-18);
     background: var(--clr-white);
-    width: 100%;
-    margin:0 auto;
+    width: var(--desktop-width);
 }
 main{
-    margin: 0 auto;
-    width: 100%;
+    width: inherit;
     
 
 }
@@ -60,7 +55,7 @@ header{
             background: url("/img/desktop/image-header.jpg") center bottom;
             background-size: cover;
             background-repeat: no-repeat;
-            width: 100%;
+            width: inherit;
             height: 80vh;
             position: absolute;
             z-index: -1;
@@ -241,7 +236,7 @@ header{
 .grid2, .grid3{
 
     .img{
-        width: 100%;
+        width: 720px;
         height: 60vh;
     
     }
