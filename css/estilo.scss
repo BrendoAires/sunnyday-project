@@ -156,10 +156,7 @@ header{
     margin: 0 auto;
    
 }
-.container-grid > div{
-    height: 75vh;
-    border: 1px solid red;
-}
+
 
 .grid1{
     grid-column: 1/2;
@@ -191,6 +188,11 @@ header{
 .grid6{
     grid-column: 2/2;
     grid-row: 3;
+}
+
+.container-grid > div{
+    height: 60vh;
+    border: 1px solid red;
 }
 .grid1, .grid4{
     
@@ -238,10 +240,7 @@ header{
 
 .grid2, .grid3{
 
-    .img{
-        
     
-    }
    
     img{
         position: relative;
@@ -266,7 +265,7 @@ header{
             
             
             height:inherit;
-            width: 720px;
+            width: inherit;
             
             
         }

@@ -155,11 +155,6 @@ header nav .nav-bar ul li :hover {
   margin: 0 auto;
 }
 
-.container-grid > div {
-  height: 75vh;
-  border: 1px solid red;
-}
-
 .grid1 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -203,6 +198,11 @@ header nav .nav-bar ul li :hover {
   grid-column: 2/2;
   -ms-grid-row: 3;
   grid-row: 3;
+}
+
+.container-grid > div {
+  height: 60vh;
+  border: 1px solid red;
 }
 
 .grid1, .grid4 {
@@ -275,7 +275,7 @@ header nav .nav-bar ul li :hover {
 
 .grid5 img, .grid6 img {
   height: inherit;
-  width: 720px;
+  width: inherit;
 }
 
 .grid5 .cont, .grid6 .cont {
