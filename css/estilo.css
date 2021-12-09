@@ -276,16 +276,18 @@ header nav .nav-bar ul li :hover {
       -ms-flex-align: end;
           align-items: flex-end;
   height: 60vh;
+  position: relative;
 }
 
 .grid5 img, .grid6 img {
   position: absolute;
   background-size: cover;
-  top: 2000px;
+  top: 0;
   right: 0;
   z-index: 0;
   height: inherit;
   width: 720px;
+  height: inherit;
 }
 
 .grid5 .cont, .grid6 .cont {

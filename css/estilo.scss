@@ -261,17 +261,19 @@ header{
     justify-content:center;
     align-items:flex-end;
     height: 60vh;
+    position: relative;
     
     
        
     img{
         position: absolute;
         background-size: cover;
-        top: 2000px;
+        top: 0;
         right: 0;
         z-index: 0;
         height:inherit;
         width: 720px; 
+        height: inherit;
     }
             
         
