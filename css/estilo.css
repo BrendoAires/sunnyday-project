@@ -288,6 +288,7 @@ header nav .nav-bar ul li :hover {
   height: inherit;
   width: 720px;
   height: inherit;
+  border: 1px solid yellow;
 }
 
 .grid5 .cont, .grid6 .cont {
