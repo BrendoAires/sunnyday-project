@@ -251,12 +251,6 @@ header nav .nav-bar ul li :hover {
   color: var(--clr-very-blue);
 }
 
-.grid2 img, .grid3 img, .grid5 img, .grid6 img {
-  border: 1px solid red;
-  height: 60vh;
-  width: 100%;
-}
-
 .grid2 .img, .grid3 .img {
   width: 720px;
   height: 60vh;
@@ -265,9 +259,11 @@ header nav .nav-bar ul li :hover {
 .grid2 img, .grid3 img {
   position: relative;
   background-size: cover;
-  height: 60vh;
   top: 0;
   right: 0;
+  border: 1px solid red;
+  height: inherit;
+  width: inherit;
 }
 
 .grid5, .grid6 {
@@ -284,8 +280,9 @@ header nav .nav-bar ul li :hover {
 }
 
 .grid5 img, .grid6 img {
+  border: 1px solid red;
+  height: 60vh;
   width: 720px;
-  max-height: 60vh;
 }
 
 .grid5 .cont, .grid6 .cont {

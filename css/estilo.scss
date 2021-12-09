@@ -231,13 +231,7 @@ header{
     }
     
 }
-.grid2, .grid3, .grid5, .grid6{
-    img{
-        border: 1px solid red;
-        height:60vh;
-        width: 100%;
-    }
-}
+
 .grid2, .grid3{
 
     .img{
@@ -249,9 +243,11 @@ header{
     img{
         position: relative;
         background-size: cover;
-        height: 60vh;
         top:0;
         right: 0;
+        border: 1px solid red;
+        height:inherit;
+        width: inherit;
     }
     
 }
@@ -265,9 +261,10 @@ header{
        
         img{
             
-            
+            border: 1px solid red;
+            height:60vh;
             width: 720px;
-            max-height: 60vh;
+            
             
         }
     
