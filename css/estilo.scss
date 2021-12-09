@@ -152,9 +152,9 @@ header{
     grid-auto-rows: minmax(0, auto);
     grid-column: 1/2;
     grid-row: 3;
-    width: var(--desktop-width);
+    max-width: var(--desktop-width);
     margin: 0 auto;
-     
+    border: 1px solid red;
 }
 
 .grid1{
@@ -173,7 +173,7 @@ header{
 .grid4{
     grid-column: 2/2;
     grid-row: 2;
-    border: 1px solid red;
+    
 }
 .grid5{
     grid-column: 1/2;
