@@ -240,7 +240,10 @@ header{
 
 .grid2, .grid3{
 
-    
+    .img{
+        height:inherit;
+        width: inherit;
+    }
    
     img{
         position: relative;
