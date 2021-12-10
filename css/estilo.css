@@ -341,23 +341,47 @@ header nav .nav-bar ul li :hover {
           flex-direction: column;
   width: inherit;
   height: 900px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px;
+}
+
+.client-testem h1 {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: var(--clr-very-gray-blue);
+  letter-spacing: .7rem;
+  font-weight: 1000;
+  font-family: var(--ff-fraunces);
+  padding-bottom: 7rem;
 }
 
 .client-testem .container-client {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid black;
 }
 
-.client-testem .container-client .client1, .client-testem .container-client .client2, .client-testem .container-client .client3 {
+.client-testem .container-client .client {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.client-testem .container-client .client img {
+  border-radius: 50%;
+}
+
+.client-testem .container-client .client .depo-cliente {
+  padding-top: 5rem;
 }
 /*# sourceMappingURL=estilo.css.map */

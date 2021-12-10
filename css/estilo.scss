@@ -322,22 +322,41 @@ header{
     flex-direction: column;
     width: inherit;
     height: 900px;
+    align-items: center;
+    padding: 100px;
 
         h1{
-
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            color: var(--clr-very-gray-blue);
+            letter-spacing: .7rem;
+            font-weight: 1000;
+            font-family: var(--ff-fraunces);
+            padding-bottom: 7rem;
         }
 
     .container-client{
-        
-        flex-direction: row;
-        justify-content: center;
+
+        justify-content: space-between;
+        border: 1px solid black;
         
        
 
-        .client1, .client2, .client3{
-           
-            flex-direction: column;
-            width: 100px;
+        .client{
+            
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+
+            img{
+                border-radius: 50%;
+            }
+
+            .depo-cliente{
+                padding-top: 5rem;
+            }
+
+            
         }
     }
     
