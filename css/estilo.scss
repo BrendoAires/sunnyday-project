@@ -359,7 +359,7 @@ header{
         .client{
             
            flex-direction: column;
-           justify-content:flex-start;
+           justify-content:center;
            align-items: center;
            
             .img-cli{
@@ -379,7 +379,8 @@ header{
                 font-size: 1.3rem;
                 text-align: center;
                 line-height: 2rem;
-                padding: .6rem 1.2rem 1rem 1.2rem ;
+                padding: .6rem 1.6rem 1rem 1.6rem ;
+                border:1px solid red;
             }
 
             cite{

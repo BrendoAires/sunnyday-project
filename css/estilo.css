@@ -384,9 +384,9 @@ header nav .nav-bar ul li :hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -406,7 +406,8 @@ header nav .nav-bar ul li :hover {
   font-size: 1.3rem;
   text-align: center;
   line-height: 2rem;
-  padding: .6rem 1.2rem 1rem 1.2rem;
+  padding: .6rem 1.6rem 1rem 1.6rem;
+  border: 1px solid red;
 }
 
 .client-testem .container-client .client cite {
