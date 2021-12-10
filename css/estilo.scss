@@ -318,7 +318,6 @@ header{
 
 
 .client-testem{
-    border: var(--tt-border);
     flex-direction: column;
     width: inherit;
     height: 900px;
@@ -338,8 +337,7 @@ header{
     .container-client{
 
         justify-content: space-between;
-        border: 1px solid black;
-        padding: 50px;
+        padding: 40px;
        align-items:center;
 
         .client{
@@ -360,12 +358,26 @@ header{
             .depo-cli{
                 margin-top: 5rem;
                 font-family: var(--ff-barlow);
-                font-weight: 700;
+                font-weight: 900;
                 color: var(--clr-very-gray-blue);
                 font-size: 1.3rem;
                 text-align: center;
                 line-height: 2rem;
-                padding: 1rem 4rem 2rem 4rem ;
+                padding: 1rem 3rem 2rem 3rem ;
+            }
+
+            cite{
+                margin: 50px 0 20px 0;
+                font-size: 1.5rem;
+                font-weight: 1000;
+                font-family: var(--ff-fraunces);
+                color: var(--clr-very-blue);
+            }
+
+            .cargo-cli{
+                font-size: 1.2rem;
+                font-family: var(--ff-barlow);
+                color:var(--clr-grayish-blue);
             }
 
             
