@@ -23,8 +23,6 @@
   --fw-600: 600;
   --fw-700: 700;
   --fw-900: 900;
-  /*------TYPOGRAPHY------*/
-  --tt-border: 1px solid red;
 }
 
 body {
@@ -205,6 +203,16 @@ header nav .nav-bar ul li :hover {
   width: 100%;
 }
 
+#bd-yellow:hover {
+  padding: 0 3px 0 3px;
+  border-bottom: 10px solid var(--clr-yellow);
+}
+
+#bd-red:hover {
+  padding: 0 3px 0 3px;
+  border-bottom: 10px solid var(--clr-soft-red);
+}
+
 .grid1, .grid4 {
   padding: 150px;
 }
@@ -249,6 +257,11 @@ header nav .nav-bar ul li :hover {
   text-transform: uppercase;
   font-weight: 900;
   color: var(--clr-very-blue);
+  padding-bottom: 0;
+  width: 150px;
+  height: 25px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 
 .grid2 .img, .grid3 .img {
@@ -501,9 +514,15 @@ footer .container-footer .nav-footer li {
   font-family: var(--ff-barlow);
 }
 
+footer .container-footer .nav-footer li :hover {
+  color: var(--clr-white);
+}
+
 footer .container-footer .nav-footer li a {
   text-decoration: none;
   color: var(--clr-dark-cyan);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 
 footer .container-footer .social {
@@ -515,6 +534,12 @@ footer .container-footer .social img {
   margin: 0 20px 0 20px;
   width: 32px;
   height: 32px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+footer .container-footer .social a :hover {
+  background: var(--clr-white);
 }
 
 footer .container-footer .attribution {

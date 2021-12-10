@@ -27,8 +27,7 @@
     --fw-700: 700;
     --fw-900: 900;
 
-    /*------TYPOGRAPHY------*/
-    --tt-border: 1px solid red;
+    
 }
 
 
@@ -194,6 +193,17 @@ header{
     height: 600px;
     width: 100%;
 }
+    
+#bd-yellow:hover{
+    padding: 0 3px 0 3px;
+    border-bottom:10px solid var(--clr-yellow);
+}
+#bd-red:hover{
+    padding: 0 3px 0 3px;
+    border-bottom:10px solid var(--clr-soft-red);
+}
+    
+
 .grid1, .grid4{
     
     padding: 150px;
@@ -231,6 +241,12 @@ header{
                 text-transform: uppercase;
                 font-weight: 900;
                 color: var(--clr-very-blue);
+                padding-bottom: 0;
+                width: 150px;
+                height: 25px;
+                transition: .3s ease;
+
+
             }
         }
         
@@ -454,16 +470,28 @@ footer{
                     margin-top: 50px;
                 }
             }
+            
         
             li{
                 display: inline-block;
                 margin-top: 20px;
                 padding: 30px;
                 font-family: var(--ff-barlow);
+
+                
+                    
+                :hover{
+                    color: var(--clr-white);
+                }
+                
+                
             }
             li a{
                 text-decoration: none;
                 color: var(--clr-dark-cyan);
+                
+                transition: .3s ease;
+
             }
     }
     
@@ -474,6 +502,17 @@ footer{
             margin: 0 20px 0 20px;
             width:32px;
             height: 32px;
+            transition: .3s ease;
+
+            
+        }
+        a{
+            :hover{
+                background:var(--clr-white);
+                
+            }
+
+            
         }
     }
 
