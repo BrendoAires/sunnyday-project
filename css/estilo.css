@@ -428,11 +428,13 @@ header nav .nav-bar ul li :hover {
 
 .galeria .grid-img .img1, .galeria .grid-img .img2, .galeria .grid-img .img3, .galeria .grid-img .img4 {
   width: 100%;
+  height: 100%;
 }
 
 .galeria .grid-img .img1 img, .galeria .grid-img .img2 img, .galeria .grid-img .img3 img, .galeria .grid-img .img4 img {
   background-size: cover;
   width: inherit;
+  height: inherit;
 }
 
 .galeria .grid-img .img1 {
@@ -461,5 +463,67 @@ header nav .nav-bar ul li :hover {
   grid-column: 4/4;
   -ms-grid-row: 1;
   grid-row: 1;
+}
+
+footer {
+  background: var(--clr-dark-moderate);
+  width: inherit;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 400px;
+}
+
+footer .container-footer .nav-footer .nav-brand {
+  margin-top: 10px;
+}
+
+footer .container-footer .nav-footer .nav-brand h3 {
+  color: var(--clr-dark-cyan);
+  font-family: var(--ff-barlow);
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin-top: 50px;
+}
+
+footer .container-footer .nav-footer li {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 30px;
+  font-family: var(--ff-barlow);
+}
+
+footer .container-footer .nav-footer li a {
+  text-decoration: none;
+  color: var(--clr-dark-cyan);
+}
+
+footer .container-footer .social {
+  margin: 30px 0;
+  padding: 20px;
+}
+
+footer .container-footer .social img {
+  margin: 0 20px 0 20px;
+  width: 32px;
+  height: 32px;
+}
+
+footer .container-footer .attribution {
+  font-family: var(--ff-barlow);
+  font-size: 1rem;
+  color: var(--clr-dark-blue);
+}
+
+footer .container-footer .attribution a {
+  color: var(--clr-white);
 }
 /*# sourceMappingURL=estilo.css.map */
