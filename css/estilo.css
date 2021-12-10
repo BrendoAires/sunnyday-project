@@ -362,6 +362,10 @@ header nav .nav-bar ul li :hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border: 1px solid black;
+  padding: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .client-testem .container-client .client {
@@ -375,13 +379,12 @@ header nav .nav-bar ul li :hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid red;
 }
 
-.client-testem .container-client .client img {
+.client-testem .container-client .client .img-cli img {
   border-radius: 50%;
-  width: 70%;
-  margin: 0 .2rem 0 .2rem;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
 }
 
 .client-testem .container-client .client .depo-cli {
@@ -392,5 +395,6 @@ header nav .nav-bar ul li :hover {
   font-size: 1.3rem;
   text-align: center;
   line-height: 2rem;
+  padding: 1rem 4rem 2rem 4rem;
 }
 /*# sourceMappingURL=estilo.css.map */
