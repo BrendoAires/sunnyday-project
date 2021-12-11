@@ -342,7 +342,6 @@ header{
     height: 100vh;
     align-items: center;
     padding: 70px;
-    border: 1px solid red;
 
         h1{
             text-transform: uppercase;
@@ -361,14 +360,12 @@ header{
         justify-content: space-between;
         align-items:center;
         padding: 0 0 1rem 0;
-        border: 1px solid red;
 
         .client{
             
            flex-direction: column;
            justify-content:center;
            align-items: center;
-           border: 1px solid red;
             .img-cli{
                 margin: 20px 0 20px 0;
                 img{
