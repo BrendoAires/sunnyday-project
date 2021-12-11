@@ -857,11 +857,11 @@ footer{
 @media (min-width:310px) and (max-width: 430px){
     body{
         font-size:12px;
-        width: 100vw;
+        width: 100%;
         max-width:425px;
     
         header{
-            width: inherit;
+            width: 100%;
 
             .img-header{
                 width: 100%;
@@ -875,7 +875,7 @@ footer{
         main{
 
             .container-grid{
-                grid-template-columns: 1fr;
+                grid-template-columns: 375px;
                 grid-auto-rows: minmax(0, auto);
                 grid-column: 1;
                 grid-row: 6;
@@ -944,30 +944,9 @@ footer{
                 
             }
             .grid5, .grid6{
-                display: flex;
-                justify-content:center;
-                align-items:flex-end;
-                height: 60vh;
-                position: relative;
-                width: inherit;
+                height: 70vh;
                 
-                
-                   
-                img{
-                    position: absolute;
-                    background-size: cover;
-                    top: 0;
-                    right: 0;
-                    z-index: 0;
-                    height:inherit;
-                    width: inherit;
-                    
-                }
-                        
-                    
-                
-            
-                .cont{
+                 .cont{
                     bottom: 20px;
                     margin: 50px;
                     width: 100%;

@@ -839,11 +839,11 @@ footer .container-footer .attribution a {
 @media (min-width: 310px) and (max-width: 430px) {
   body {
     font-size: 12px;
-    width: 100vw;
+    width: 100%;
     max-width: 425px;
   }
   body header {
-    width: inherit;
+    width: 100%;
   }
   body header .img-header {
     width: 100%;
@@ -852,8 +852,8 @@ footer .container-footer .attribution a {
     font-size: 3rem;
   }
   body main .container-grid {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    -ms-grid-columns: 375px;
+        grid-template-columns: 375px;
     grid-auto-rows: minmax(0, auto);
     -ms-grid-column: 1;
     grid-column: 1;
@@ -923,27 +923,7 @@ footer .container-footer .attribution a {
     width: inherit;
   }
   body main .grid5, body main .grid6 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    height: 60vh;
-    position: relative;
-    width: inherit;
-  }
-  body main .grid5 img, body main .grid6 img {
-    position: absolute;
-    background-size: cover;
-    top: 0;
-    right: 0;
-    z-index: 0;
-    height: inherit;
-    width: inherit;
+    height: 70vh;
   }
   body main .grid5 .cont, body main .grid6 .cont {
     bottom: 20px;
