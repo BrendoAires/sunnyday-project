@@ -897,19 +897,12 @@ footer{
                 
                 padding: 20px;
                 
-                
-                
                 .grid-interno{
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    align-items: center;
-                    text-align: left;
+                    text-align: center;
                     
                 
                     h2{
-                        color: var(--clr-very-blue);
-                        font-size: 50px;
+                        font-size: 2rem;
                         margin: 0 auto;
                         font-family: var(--ff-fraunces);
                         margin-bottom: 30px;
@@ -918,10 +911,8 @@ footer{
                     }
                     p{
                         font-family: var(--ff-barlow);
-                        font-size: var(--fs-18);
-                        color: var(--clr-dark-grayish);
-                        line-height: 30px;
-                        font-weight: bold;
+                        font-size: .9rem;
+                        line-height: 20px;
                         
                         
                     }
