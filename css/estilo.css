@@ -580,13 +580,13 @@ footer .container-footer .attribution a {
   body .grid1, body .grid2, body .grid3, body .grid4, body .grid5, body .grid6 {
     height: 500px;
   }
-  body .grid1 h2, body .grid2 h2, body .grid3 h2, body .grid4 h2, body .grid5 h2, body .grid6 h2 {
+  body .grid1 .grid-interno h2, body .grid2 .grid-interno h2, body .grid3 .grid-interno h2, body .grid4 .grid-interno h2, body .grid5 .grid-interno h2, body .grid6 .grid-interno h2 {
     font-size: 3rem;
   }
-  body .grid1 p, body .grid2 p, body .grid3 p, body .grid4 p, body .grid5 p, body .grid6 p {
+  body .grid1 .grid-interno p, body .grid2 .grid-interno p, body .grid3 .grid-interno p, body .grid4 .grid-interno p, body .grid5 .grid-interno p, body .grid6 .grid-interno p {
     font-size: .8rem;
   }
-  body .grid1 a, body .grid2 a, body .grid3 a, body .grid4 a, body .grid5 a, body .grid6 a {
+  body .grid1 .grid-interno a, body .grid2 .grid-interno a, body .grid3 .grid-interno a, body .grid4 .grid-interno a, body .grid5 .grid-interno a, body .grid6 .grid-interno a {
     font-size: .6rem;
   }
 }

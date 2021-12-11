@@ -556,16 +556,19 @@ footer{
                 padding: 100px;
         }
         .grid1, .grid2, .grid3, .grid4, .grid5, .grid6{
+            
             height: 500px;
+                .grid-interno{
 
-            h2{
-                font-size: 3rem;
-            }
-            p{
-                font-size:.8rem;
-            }
-            a{
-                font-size: .6rem;
+                h2{
+                    font-size: 3rem;
+                }
+                p{
+                    font-size:.8rem;
+                }
+                a{
+                    font-size: .6rem;
+                }
             }
             
         }
