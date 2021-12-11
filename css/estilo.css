@@ -839,7 +839,7 @@ footer .container-footer .attribution a {
 @media (min-width: 310px) and (max-width: 425px) {
   body {
     font-size: 12px;
-    width: 375px;
+    width: 100%;
     max-width: 425px;
   }
   body header {
@@ -862,7 +862,7 @@ footer .container-footer .attribution a {
   }
   body main .grid1, body main .grid2, body main .grid3, body main .grid4, body main .grid5, body main .grid6 {
     -ms-grid-column: 1;
-    grid-column: 1/1;
+    grid-column: 1;
   }
   body main .grid1 {
     -ms-grid-row: 2;
@@ -895,7 +895,7 @@ footer .container-footer .attribution a {
     text-align: center;
   }
   body main .grid1 .grid-interno h2, body main .grid4 .grid-interno h2 {
-    font-size: 2rem;
+    font-size: .6rem;
     margin-bottom: 30px;
   }
   body main .grid1 .grid-interno p, body main .grid4 .grid-interno p {
