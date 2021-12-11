@@ -843,7 +843,7 @@ footer .container-footer .attribution a {
   body header {
     width: inherit;
   }
-  body header .img-header .titulo {
+  body header .img-header .titulo h1 {
     font-size: 1rem;
   }
   body .container-grid {

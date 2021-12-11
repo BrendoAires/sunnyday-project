@@ -862,7 +862,9 @@ footer{
     header{
         width: inherit;
         .img-header{
-            .titulo {font-size: 1rem;}
+            .titulo {
+                h1{font-size: 1rem;}
+            }
         }  
 
 }
