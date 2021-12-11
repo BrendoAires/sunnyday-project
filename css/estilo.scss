@@ -541,8 +541,12 @@ footer{
 
         body{
             max-width: 1024px;
-            font-size:12px;
-            width: 100vw;
+            font-size:14px;
+            width: 100%;
+
+            header{
+                width: 100%;
+            }
             
             .container-grid{
                 width: inherit;
