@@ -696,7 +696,7 @@ footer .container-footer .attribution a {
   .container-grid .grid1, .container-grid .grid2, .container-grid .grid3, .container-grid .grid4, .container-grid .grid5, .container-grid .grid6 {
     -ms-grid-column: 1;
     grid-column: 1;
-    width: 70vw;
+    width: 100%;
     margin: 0 auto;
   }
   .container-grid .grid1 {
