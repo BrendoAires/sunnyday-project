@@ -409,7 +409,7 @@ header nav .nav-bar ul li :hover {
 }
 
 .client-testem .container-client .client .depo-cli {
-  margin: 6rem 0;
+  margin: 3rem 0;
   font-family: var(--ff-barlow);
   font-weight: 600;
   color: var(--clr-very-gray-blue);
