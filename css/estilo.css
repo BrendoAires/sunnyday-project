@@ -888,20 +888,8 @@ footer .container-footer .attribution a {
     -ms-grid-row: 6;
     grid-row: 6;
   }
-  body main .container-grid > div {
-    height: 600px;
-    width: 100%;
-  }
-  body main #bd-yellow:hover {
-    padding: 0 3px 0 3px;
-    border-bottom: 10px solid var(--clr-yellow);
-  }
-  body main #bd-red:hover {
-    padding: 0 3px 0 3px;
-    border-bottom: 10px solid var(--clr-soft-red);
-  }
   body main .grid1, body main .grid4 {
-    padding: 150px;
+    padding: 20px;
   }
   body main .grid1 .grid-interno, body main .grid4 .grid-interno {
     display: -webkit-box;
