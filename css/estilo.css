@@ -575,7 +575,7 @@ footer .container-footer .attribution a {
     max-width: 100%;
   }
   body .grid1, body .grid4 {
-    padding: 0;
+    padding: 50px;
   }
 }
 
