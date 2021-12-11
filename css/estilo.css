@@ -596,6 +596,18 @@ footer .container-footer .attribution a {
   body .grid5 .cont p, body .grid6 .cont p {
     font-size: .9rem;
   }
+  .client-testem h1 {
+    font-size: 1.5rem;
+  }
+  .client-testem .container-client .client p {
+    font-size: 1rem;
+  }
+  .client-testem .container-client .client cite {
+    font-size: 1.3rem;
+  }
+  .client-testem .container-client .client .cargo {
+    font-size: 1.1;
+  }
 }
 
 @media (max-width: 768px) {
