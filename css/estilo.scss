@@ -360,7 +360,7 @@ header{
 
         justify-content: space-between;
         align-items:center;
-        padding: 0;
+        padding: 0 0 1rem 0;
         border: 1px solid red;
 
         .client{
@@ -385,7 +385,7 @@ header{
                 font-size: 1.3rem;
                 text-align: center;
                 line-height: 3rem;
-                padding: .6rem 1.5rem 2rem 1.5rem ;
+                padding: .6rem 1.2rem 2rem 1.2rem ;
             }
 
             cite{
