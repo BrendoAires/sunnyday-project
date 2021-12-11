@@ -839,7 +839,7 @@ footer .container-footer .attribution a {
 @media (min-width: 310px) and (max-width: 425px) {
   body {
     font-size: 12px;
-    width: 100%;
+    width: 100vw;
     max-width: 425px;
   }
   body header {
