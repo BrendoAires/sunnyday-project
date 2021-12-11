@@ -565,10 +565,7 @@ footer .container-footer .attribution a {
   body {
     max-width: 1024px;
     font-size: 12px;
-    width: 100%;
-  }
-  body .container-grid {
-    width: inherit;
+    width: 100vw;
   }
 }
 
