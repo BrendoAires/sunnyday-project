@@ -339,9 +339,10 @@ header{
 .client-testem{
     flex-direction: column;
     width: inherit;
-    height: 900px;
+    height: 100vh;
     align-items: center;
     padding: 70px;
+    border: 1px solid red;
 
         h1{
             text-transform: uppercase;
@@ -350,21 +351,24 @@ header{
             letter-spacing: .7rem;
             font-weight: 1000;
             font-family: var(--ff-fraunces);
-            padding-bottom: 7rem;
+            padding-bottom: 5rem;
+            margin-top: 5rem;
+
         }
 
     .container-client{
 
         justify-content: space-between;
-       align-items:center;
-       padding: 30px;
+        align-items:center;
+        padding: 0;
+        border: 1px solid red;
 
         .client{
             
            flex-direction: column;
            justify-content:center;
            align-items: center;
-           
+           border: 1px solid red;
             .img-cli{
                 margin: 20px 0 20px 0;
                 img{
@@ -374,7 +378,7 @@ header{
         }
 
             .depo-cli{
-                margin-top: 6rem;
+                margin: 6rem 0;
                 font-family: var(--ff-barlow);
                 font-weight: 600;
                 color: var(--clr-very-gray-blue);
