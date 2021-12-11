@@ -851,5 +851,175 @@ footer .container-footer .attribution a {
   body header .img-header .titulo h1 {
     font-size: 3rem;
   }
+  body main .container-grid {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(0, auto);
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 6;
+    grid-row: 6;
+  }
+  body main .grid1, body main .grid2, body main .grid3, body main .grid4, body main .grid5, body main .grid6 {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+  }
+  body main .grid1 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  body main .grid2 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body main .grid3 {
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
+  body main .grid4 {
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+  body main .grid5 {
+    -ms-grid-row: 5;
+    grid-row: 5;
+  }
+  body main .grid6 {
+    -ms-grid-row: 6;
+    grid-row: 6;
+  }
+  body main .container-grid > div {
+    height: 600px;
+    width: 100%;
+  }
+  body main #bd-yellow:hover {
+    padding: 0 3px 0 3px;
+    border-bottom: 10px solid var(--clr-yellow);
+  }
+  body main #bd-red:hover {
+    padding: 0 3px 0 3px;
+    border-bottom: 10px solid var(--clr-soft-red);
+  }
+  body main .grid1, body main .grid4 {
+    padding: 150px;
+  }
+  body main .grid1 .grid-interno, body main .grid4 .grid-interno {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+  }
+  body main .grid1 .grid-interno h2, body main .grid4 .grid-interno h2 {
+    color: var(--clr-very-blue);
+    font-size: 50px;
+    margin: 0 auto;
+    font-family: var(--ff-fraunces);
+    margin-bottom: 30px;
+  }
+  body main .grid1 .grid-interno p, body main .grid4 .grid-interno p {
+    font-family: var(--ff-barlow);
+    font-size: var(--fs-18);
+    color: var(--clr-dark-grayish);
+    line-height: 30px;
+    font-weight: bold;
+  }
+  body main .grid1 .grid-interno a, body main .grid4 .grid-interno a {
+    display: block;
+    margin-top: 30px;
+    font-family: var(--ff-fraunces);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: var(--clr-very-blue);
+    padding-bottom: 0;
+    width: 150px;
+    height: 20px;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  }
+  body main .grid2 .img, body main .grid3 .img {
+    height: inherit;
+    width: inherit;
+  }
+  body main .grid2 img, body main .grid3 img {
+    position: relative;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    height: inherit;
+    width: inherit;
+  }
+  body main .grid5, body main .grid6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    height: 60vh;
+    position: relative;
+    width: inherit;
+  }
+  body main .grid5 img, body main .grid6 img {
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    height: inherit;
+    width: inherit;
+  }
+  body main .grid5 .cont, body main .grid6 .cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    bottom: 20px;
+    margin: 50px;
+    width: 60%;
+    z-index: 1;
+  }
+  body main .grid5 .cont h4, body main .grid6 .cont h4 {
+    font-size: 35px;
+    font-family: var(--ff-fraunces);
+    font-weight: 900;
+    margin-bottom: 30px;
+  }
+  body main .grid5 .cont p, body main .grid6 .cont p {
+    font-family: var(--ff-barlow);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+  body main .grid5 .cont h4, body main .grid5 .cont p {
+    color: var(--clr-dark-cyan);
+  }
+  body main .grid6 .cont h4, body main .grid6 .cont p {
+    color: var(--clr-dark-blue);
+  }
 }
 /*# sourceMappingURL=estilo.css.map */
