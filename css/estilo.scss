@@ -540,6 +540,7 @@ footer{
 @media (min-width: 768px) and (max-width: 1025px){
 
         body{
+            min-width: 768px;
             max-width: 1024px;
             font-size:14px;
             width: 100%;
@@ -553,7 +554,7 @@ footer{
                 max-width: 100%;
             }
             .grid1, .grid4{
-                padding: 100px;
+                padding: 100px 50px 100px 50px;
         }
         .grid1, .grid2, .grid3, .grid4, .grid5, .grid6{
             
