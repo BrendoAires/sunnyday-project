@@ -836,7 +836,7 @@ footer .container-footer .attribution a {
   }
 }
 
-@media (min-width: 325px) and (max-width: 425px) {
+@media (min-width: 310px) and (max-width: 425px) {
   body {
     font-size: 12px;
     width: 375px;
@@ -852,8 +852,8 @@ footer .container-footer .attribution a {
     font-size: 3rem;
   }
   body main .container-grid {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     grid-auto-rows: minmax(0, auto);
     -ms-grid-column: 1;
     grid-column: 1;
@@ -896,25 +896,15 @@ footer .container-footer .attribution a {
   }
   body main .grid1 .grid-interno h2, body main .grid4 .grid-interno h2 {
     font-size: 2rem;
-    margin: 0 auto;
-    font-family: var(--ff-fraunces);
     margin-bottom: 30px;
   }
   body main .grid1 .grid-interno p, body main .grid4 .grid-interno p {
-    font-family: var(--ff-barlow);
     font-size: .9rem;
     line-height: 20px;
   }
   body main .grid1 .grid-interno a, body main .grid4 .grid-interno a {
-    display: block;
-    margin-top: 30px;
-    font-family: var(--ff-fraunces);
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    color: var(--clr-very-blue);
-    padding-bottom: 0;
+    margin-top: 15px;
+    font-size: .8rem;
     width: 150px;
     height: 20px;
     -webkit-transition: .3s ease;
@@ -956,36 +946,17 @@ footer .container-footer .attribution a {
     width: inherit;
   }
   body main .grid5 .cont, body main .grid6 .cont {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
     bottom: 20px;
     margin: 50px;
-    width: 60%;
+    width: 100%;
     z-index: 1;
   }
   body main .grid5 .cont h4, body main .grid6 .cont h4 {
-    font-size: 35px;
-    font-family: var(--ff-fraunces);
-    font-weight: 900;
+    font-size: 1rem;
     margin-bottom: 30px;
   }
   body main .grid5 .cont p, body main .grid6 .cont p {
-    font-family: var(--ff-barlow);
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: bold;
+    font-size: .8rem;
   }
   body main .grid5 .cont h4, body main .grid5 .cont p {
     color: var(--clr-dark-cyan);
