@@ -561,7 +561,7 @@ footer .container-footer .attribution a {
   color: var(--clr-white);
 }
 
-@media (min-width: 768px) and (max-width: 1025px) {
+@media (max-width: 1025px) {
   body {
     min-width: 768px;
     max-width: 1024px;
