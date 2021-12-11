@@ -581,13 +581,19 @@ footer .container-footer .attribution a {
     height: 500px;
   }
   body .grid1 .grid-interno h2, body .grid2 .grid-interno h2, body .grid3 .grid-interno h2, body .grid4 .grid-interno h2, body .grid5 .grid-interno h2, body .grid6 .grid-interno h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   body .grid1 .grid-interno p, body .grid2 .grid-interno p, body .grid3 .grid-interno p, body .grid4 .grid-interno p, body .grid5 .grid-interno p, body .grid6 .grid-interno p {
-    font-size: .8rem;
+    font-size: 1rem;
   }
   body .grid1 .grid-interno a, body .grid2 .grid-interno a, body .grid3 .grid-interno a, body .grid4 .grid-interno a, body .grid5 .grid-interno a, body .grid6 .grid-interno a {
-    font-size: .6rem;
+    font-size: .8rem;
+  }
+  body .grid5 .cont h4, body .grid6 .cont h4 {
+    font-size: 2.8rem;
+  }
+  body .grid5 .cont p, body .grid6 .cont p {
+    font-size: 1.4rem;
   }
 }
 
