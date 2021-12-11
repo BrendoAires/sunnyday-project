@@ -788,7 +788,7 @@ footer .container-footer .attribution a {
   .galeria .grid-img {
     display: -ms-grid;
     display: grid;
-    width: inherit;
+    width: 768px;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(0, auto);
@@ -835,29 +835,31 @@ footer .container-footer .attribution a {
   }
 }
 
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 375px) {
   body {
-    max-width: 425px;
     font-size: 12px;
-    width: 100%;
+    width: 375px;
   }
-  header .titulo {
+  body header {
+    width: inherit;
+  }
+  body header .img-header .titulo {
     font-size: 1rem;
   }
-  .container-grid {
+  body .container-grid {
     width: 375px;
     border: 1px solid red;
   }
-  .container-grid .grid5 h4, .container-grid .grid6 h4 {
+  body .container-grid .grid5 h4, body .container-grid .grid6 h4 {
     font-size: 22px;
   }
-  .container-grid .grid5 p, .container-grid .grid6 p {
+  body .container-grid .grid5 p, body .container-grid .grid6 p {
     font-size: 12px;
   }
-  .container-grid .grid1, .container-grid .grid4 {
+  body .container-grid .grid1, body .container-grid .grid4 {
     padding: 0;
   }
-  .container-grid .grid1 .grid-interno, .container-grid .grid4 .grid-interno {
+  body .container-grid .grid1 .grid-interno, body .container-grid .grid4 .grid-interno {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -866,16 +868,16 @@ footer .container-footer .attribution a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .container-grid .grid1 .grid-interno h2, .container-grid .grid4 .grid-interno h2 {
+  body .container-grid .grid1 .grid-interno h2, body .container-grid .grid4 .grid-interno h2 {
     font-size: 2.6rem;
     margin-bottom: 30px;
     padding: 30px 0 30px 0;
   }
-  .container-grid .grid1 .grid-interno p, .container-grid .grid4 .grid-interno p {
+  body .container-grid .grid1 .grid-interno p, body .container-grid .grid4 .grid-interno p {
     font-family: var(--ff-barlow);
     font-size: 1.2rem;
   }
-  .container-grid .grid1 .grid-interno a, .container-grid .grid4 .grid-interno a {
+  body .container-grid .grid1 .grid-interno a, body .container-grid .grid4 .grid-interno a {
     display: inline-block;
     margin-top: 60px;
     -webkit-transition: .3s ease;
@@ -884,13 +886,13 @@ footer .container-footer .attribution a {
         -ms-flex-align: center;
             align-items: center;
   }
-  .container-grid .grid1, .container-grid .grid2, .container-grid .grid3, .container-grid .grid4, .container-grid .grid5, .container-grid .grid6 {
+  body .container-grid .grid1, body .container-grid .grid2, body .container-grid .grid3, body .container-grid .grid4, body .container-grid .grid5, body .container-grid .grid6 {
     -ms-grid-column: 1;
     grid-column: 1;
     width: inherit;
     border: 1px solid red;
   }
-  .container-grid .grid1 .img, .container-grid .grid2 .img, .container-grid .grid3 .img, .container-grid .grid4 .img, .container-grid .grid5 .img, .container-grid .grid6 .img {
+  body .container-grid .grid1 .img, body .container-grid .grid2 .img, body .container-grid .grid3 .img, body .container-grid .grid4 .img, body .container-grid .grid5 .img, body .container-grid .grid6 .img {
     width: inherit;
   }
 }
