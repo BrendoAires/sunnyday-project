@@ -537,6 +537,20 @@ footer{
 }
 }
 
+@media (min-width: 768px) and (max-width: 1025px){
+
+        body{
+            max-width: 1024px;
+            font-size:12px;
+            width: 100%;
+            
+            .container-grid{
+                width: inherit;
+            }
+        }
+
+}
+
 @media (max-width: 770px){
    
     body{
