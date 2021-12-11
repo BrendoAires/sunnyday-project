@@ -693,7 +693,6 @@ footer .container-footer .attribution a {
     grid-column: 1;
     width: 100%;
     height: 60vh;
-    margin: 0 auto;
   }
   .container-grid .grid1 {
     -ms-grid-column: 1;
@@ -783,6 +782,7 @@ footer .container-footer .attribution a {
   }
   .galeria {
     width: 100%;
+    max-width: 768px;
     margin-top: 8.5rem;
   }
   .galeria .grid-img {
@@ -825,8 +825,8 @@ footer .container-footer .attribution a {
     grid-column: 2/2;
   }
   .galeria .grid-img .img1, .galeria .grid-img .img2, .galeria .grid-img .img3, .galeria .grid-img .img4 {
-    width: 100%;
-    height: 100%;
+    width: inherit;
+    height: inherit;
   }
   .galeria .grid-img .img1 img, .galeria .grid-img .img2 img, .galeria .grid-img .img3 img, .galeria .grid-img .img4 img {
     background-size: cover;
