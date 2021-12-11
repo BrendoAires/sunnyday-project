@@ -354,11 +354,12 @@ header nav .nav-bar ul li :hover {
       -ms-flex-direction: column;
           flex-direction: column;
   width: inherit;
-  height: 100vh;
+  height: 1200px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 70px;
+  margin-bottom: 2rem;
 }
 
 .client-testem h1 {
@@ -379,7 +380,7 @@ header nav .nav-bar ul li :hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 0 1rem 0;
+  padding: 0;
 }
 
 .client-testem .container-client .client {

@@ -339,9 +339,10 @@ header{
 .client-testem{
     flex-direction: column;
     width: inherit;
-    height: 100vh;
+    height: 1200px;
     align-items: center;
     padding: 70px;
+    margin-bottom: 2rem;
 
         h1{
             text-transform: uppercase;
@@ -359,7 +360,7 @@ header{
 
         justify-content: space-between;
         align-items:center;
-        padding: 0 0 1rem 0;
+        padding: 0;
 
         .client{
             
@@ -398,6 +399,7 @@ header{
                 font-family: var(--ff-barlow);
                 color:var(--clr-grayish-blue);
                 font-weight: 200;
+                
             }
 
             
