@@ -416,7 +416,7 @@ header nav .nav-bar ul li :hover {
   font-size: 1.3rem;
   text-align: center;
   line-height: 3rem;
-  padding: .6rem 3rem 2rem 3rem;
+  padding: .6rem 2rem 2rem 2rem;
 }
 
 .client-testem .container-client .client cite {
