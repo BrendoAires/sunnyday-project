@@ -578,7 +578,13 @@ footer .container-footer .attribution a {
     padding: 100px;
   }
   body .grid1, body .grid2, body .grid3, body .grid4, body .grid5, body .grid6 {
-    height: 400px;
+    height: 500px;
+  }
+  body .grid1 h2, body .grid2 h2, body .grid3 h2, body .grid4 h2, body .grid5 h2, body .grid6 h2 {
+    font-size: 4rem;
+  }
+  body .grid1 p, body .grid2 p, body .grid3 p, body .grid4 p, body .grid5 p, body .grid6 p {
+    font-size: .8rem;
   }
 }
 
