@@ -640,8 +640,8 @@ footer .container-footer .attribution a {
   .container-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(0, auto);
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
@@ -658,7 +658,7 @@ footer .container-footer .attribution a {
     font-size: 15px;
   }
   .container-grid .grid1, .container-grid .grid4 {
-    padding: 60px 25px 60px 25px;
+    padding: 30px 25px 30px 25px;
   }
   .container-grid .grid1 .grid-interno, .container-grid .grid4 .grid-interno {
     -webkit-box-align: center;

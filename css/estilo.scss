@@ -645,7 +645,7 @@ footer{
 
     .container-grid{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         
         grid-auto-rows: minmax(0, auto);
         grid-column: 1/2;
@@ -666,7 +666,7 @@ footer{
         }
 
         .grid1, .grid4{
-            padding: 60px 25px 60px 25px;
+            padding: 30px 25px 30px 25px;
 
             .grid-interno{
                 
