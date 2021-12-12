@@ -519,8 +519,12 @@ footer{
         width: 100%;
 
         .container-grid{
+            border: 1px solid red;
             width:100%;
             max-width: 425px;
+            .grid1, .grid2, .grid3, .grid4, .grid5, .grid6{
+                width: 425px;
+           }
         
             .grid2, .grid3{
                 width: 100%;
