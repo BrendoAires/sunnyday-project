@@ -677,6 +677,34 @@ footer{
                 }
         }
     }
+
+    .galeria{
+        width: 100%;
+        .grid-img{
+            display: grid;
+            width: inherit;
+        
+            grid-auto-rows: minmax(0, auto);
+            grid-column: 1/4;
+            grid-row: 1;
+           
+                .img1, .img2, .img3, .img4{
+                    width: inherit;
+                    height: 100%;
+                   
+                    img{
+                        background-size: cover;
+                        width: inherit;
+                        height: inherit;
+                        
+                }}
+                .img1{ grid-row: 1; grid-column: 1; }
+                .img2{ grid-row: 1; grid-column: 2;}
+                .img3{ grid-row: 1; grid-column: 3;}
+                .img4{ grid-row: 1; grid-column: 4;}
+                   
+        }
+    }
 }
 
 @media(min-width: 1440px){
