@@ -596,9 +596,6 @@ footer .container-footer .attribution a {
     margin: 0 auto;
     width: 100%;
   }
-  body .grid1, body .grid2, body .grid3, body .grid4 {
-    width: 384px;
-  }
   body .grid1 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
