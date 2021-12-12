@@ -564,10 +564,14 @@ footer .container-footer .attribution a {
   }
   body .container-grid {
     width: 100%;
+    max-width: 425px;
   }
-  body .grid2 {
+  body .grid2, body .grid3 {
     width: 100%;
     height: 60vh;
+  }
+  body .grid2 .img, body .grid3 .img {
+    height: inherit;
   }
 }
 /*# sourceMappingURL=estilo.css.map */

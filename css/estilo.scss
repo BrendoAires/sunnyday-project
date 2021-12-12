@@ -519,11 +519,17 @@ footer{
     body{
         width: 100%;
 
-        .container-grid{width:100%;}
-        .grid2{
-            width: 100%;
-            height: 60vh;
+        .container-grid{
+            width:100%;
+            max-width: 425px;
         }
-    }
+            .grid2, .grid3{
+                width: 100%;
+                height: 60vh;
+                    .img{
+                        height: inherit;
+                    }
+            }
+        }
 }
 
