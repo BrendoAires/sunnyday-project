@@ -525,15 +525,13 @@ footer{
             
         
             .grid2, .grid3{
-                width: inherit;
-                height: 50vh;
                     .img{
                         height: inherit;
-                        
+
                     }
             }
-            .grid1, .grid4{
-                width: 100%;
+            .grid1, .grid2, .grid3, .grid4{
+                width: inherit;
                 height: 50vh;
             }
         }
@@ -592,19 +590,18 @@ footer{
         
 
         .grid1, .grid2, .grid3, .grid4, .grid5, .grid6{
-            height:60vh;
-            width: 384px;
+            height:50vh;
         } 
         .grid1, .grid4{
             
-            padding: 20px 10px 20px 10px;
+            padding: 20px 30px 20px 30px;
         
 
             
             .grid-interno{
-                h2{font-size: 1.1rem;}
-                p{font-size: .8rem;}
-                a{font-size: .7rem;}
+                h2{font-size: 1.3rem;}
+                p{font-size: .9rem;}
+                a{font-size: .8rem;}
                 
             }
         }

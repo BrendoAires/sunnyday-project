@@ -564,15 +564,11 @@ footer .container-footer .attribution a {
     width: inherit;
     max-width: 100%;
   }
-  body .container-grid .grid2, body .container-grid .grid3 {
-    width: inherit;
-    height: 50vh;
-  }
   body .container-grid .grid2 .img, body .container-grid .grid3 .img {
     height: inherit;
   }
-  body .container-grid .grid1, body .container-grid .grid4 {
-    width: 100%;
+  body .container-grid .grid1, body .container-grid .grid2, body .container-grid .grid3, body .container-grid .grid4 {
+    width: inherit;
     height: 50vh;
   }
 }
@@ -636,20 +632,19 @@ footer .container-footer .attribution a {
     grid-row: 3;
   }
   body .grid1, body .grid2, body .grid3, body .grid4, body .grid5, body .grid6 {
-    height: 60vh;
-    width: 384px;
+    height: 50vh;
   }
   body .grid1, body .grid4 {
-    padding: 20px 10px 20px 10px;
+    padding: 20px 30px 20px 30px;
   }
   body .grid1 .grid-interno h2, body .grid4 .grid-interno h2 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   body .grid1 .grid-interno p, body .grid4 .grid-interno p {
-    font-size: .8rem;
+    font-size: .9rem;
   }
   body .grid1 .grid-interno a, body .grid4 .grid-interno a {
-    font-size: .7rem;
+    font-size: .8rem;
   }
   .client-testem {
     height: 700px;
