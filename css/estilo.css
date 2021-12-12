@@ -796,21 +796,21 @@ footer .container-footer .attribution a {
     height: 80vh;
     padding: 70px;
   }
-  body .gri1, body .grid4 {
+  body .grid1, body .grid4 {
     border: 1px solid red;
   }
-  body .gri1 .grid-interno, body .grid4 .grid-interno {
+  body .grid1 .grid-interno, body .grid4 .grid-interno {
     border: 1px solid red;
     text-align: left;
   }
-  body .gri1 .grid-interno h2, body .grid4 .grid-interno h2 {
-    font-size: 2rem;
-  }
-  body .gri1 .grid-interno p, body .grid4 .grid-interno p {
-    font-size: 1.5rem;
-  }
-  body .gri1 .grid-interno a, body .grid4 .grid-interno a {
+  body .grid1 .grid-interno h2, body .grid4 .grid-interno h2 {
     font-size: 1.2rem;
+  }
+  body .grid1 .grid-interno p, body .grid4 .grid-interno p {
+    font-size: .9rem;
+  }
+  body .grid1 .grid-interno a, body .grid4 .grid-interno a {
+    font-size: .8rem;
   }
   .client-testem {
     height: 700px;
