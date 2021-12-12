@@ -437,7 +437,7 @@ footer{
     justify-content:space-between;
     align-items: center;
     text-align: center;
-    height: 400px;
+    height: 300px;
 
     .container-footer{
         
@@ -449,9 +449,9 @@ footer{
                 h3{
                     color: var(--clr-dark-cyan);
                     font-family: var(--ff-barlow);
-                    font-weight: bold;
-                    font-size: 2.2rem;
-                    margin-top: 50px;
+                    font-weight: 1000;
+                    font-size: 1.8rem;
+                    margin-top: 20px;
                 }
             }
             
@@ -459,7 +459,7 @@ footer{
             li{
                 display: inline-block;
                 margin-top: 20px;
-                padding: 30px;
+                padding: 10px;
                 font-family: var(--ff-barlow);
 
                 
@@ -473,7 +473,7 @@ footer{
             li a{
                 text-decoration: none;
                 color: var(--clr-dark-cyan);
-                
+                font-size: .8rem;
                 transition: .3s ease;
 
             }
@@ -481,11 +481,11 @@ footer{
     
     .social{
         margin: 30px 0;
-        padding: 20px;
+        padding: 10px;
         img{
             margin: 0 20px 0 20px;
-            width:32px;
-            height: 32px;
+            width:20px;
+            height: 20px;
             transition: .3s ease;
 
             
@@ -504,7 +504,7 @@ footer{
 
     .attribution{
         font-family: var(--ff-barlow);
-        font-size: 1rem;
+        font-size: 8rem;
         color: var(--clr-dark-blue);
         
         a{
