@@ -44,24 +44,21 @@ main {
 }
 
 header {
-  height: 80vh;
+  height: 60vh;
   width: inherit;
 }
 
 header .img-header {
-  background: url("/img/desktop/image-header.jpg") center bottom;
-  background-size: cover;
+  background: url("/img/desktop/image-header.jpg") top;
+  background-size: 200% 80%;
   background-repeat: no-repeat;
   width: inherit;
-  height: 80vh;
+  height: 75vh;
   position: absolute;
   z-index: -1;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 header .titulo {
@@ -69,14 +66,11 @@ header .titulo {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 170px;
 }
 
 header .titulo img {
