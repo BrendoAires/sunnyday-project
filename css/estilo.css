@@ -687,6 +687,10 @@ footer .container-footer .attribution a {
     padding: 30px 40px 30px 40px;
     width: inherit;
   }
+  body .grid5, body .grid6 {
+    height: 70vh;
+    padding: 50px;
+  }
   body .grid-interno h2 {
     font-size: 1.2rem;
   }
