@@ -290,8 +290,6 @@ header nav .nav-bar ul li :hover {
 .grid5 img, .grid6 img {
   position: absolute;
   background-size: cover;
-  top: 0;
-  right: 0;
   z-index: 0;
   height: inherit;
   width: inherit;
@@ -312,8 +310,7 @@ header nav .nav-bar ul li :hover {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  bottom: 20px;
-  margin: 50px;
+  margin: 20px;
   z-index: 1;
 }
 
@@ -349,19 +346,20 @@ header nav .nav-bar ul li :hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 70px;
+  padding: 10px;
   margin-bottom: 2rem;
 }
 
 .client-testem h1 {
   text-transform: uppercase;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   color: var(--clr-grayish-blue);
   letter-spacing: .7rem;
   font-weight: 1000;
   font-family: var(--ff-fraunces);
-  padding-bottom: 5rem;
-  margin-top: 5rem;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+  text-align: center;
 }
 
 .client-testem .container-client {
@@ -371,10 +369,14 @@ header nav .nav-bar ul li :hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .client-testem .container-client .client {
+  margin-top: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -402,22 +404,22 @@ header nav .nav-bar ul li :hover {
   font-family: var(--ff-barlow);
   font-weight: 600;
   color: var(--clr-very-gray-blue);
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: center;
   line-height: 3rem;
-  padding: .6rem 1.2rem 2rem 1.2rem;
+  padding: 0 1.2rem 1rem 1.2rem;
 }
 
 .client-testem .container-client .client cite {
-  margin: 50px 0 20px 0;
-  font-size: 1.5rem;
+  margin: 10px 0 20px 0;
+  font-size: 1.1rem;
   font-weight: 1000;
   font-family: var(--ff-fraunces);
   color: var(--clr-very-blue);
 }
 
 .client-testem .container-client .client .cargo-cli {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: var(--ff-barlow);
   color: var(--clr-grayish-blue);
   font-weight: 200;
