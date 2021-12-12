@@ -602,8 +602,19 @@ footer{
     }
 
     .client-testem{
+      
+        height: 700px;
         .container-client{
             flex-direction: row;
+                .client{
+                    padding: 0;
+                    height: 500px;
+                        .depo-cli{
+                            height: 270px;
+                            justify-content: center;
+                        }
+
+                }
         }
     }
 }
