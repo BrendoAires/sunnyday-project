@@ -561,11 +561,10 @@ footer .container-footer .attribution a {
     width: 100%;
   }
   body .container-grid {
-    width: 100%;
-    max-width: 425px;
+    width: 425px;
   }
   body .container-grid .grid1, body .container-grid .grid2, body .container-grid .grid3, body .container-grid .grid4, body .container-grid .grid5, body .container-grid .grid6 {
-    border: 1px solid red;
+    border: 1px solid purple;
     width: 425px;
   }
   body .container-grid .grid2, body .container-grid .grid3 {
