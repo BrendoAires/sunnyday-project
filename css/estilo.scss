@@ -769,7 +769,7 @@ footer{
         
         .grid1, .grid2, .grid3, .grid4, .grid5, .grid6{
              width: 720px;
-             height: 80vh;
+             height: 60vh;
         }
         .grid1, .grid2, .grid3, .grid4{
     
@@ -783,7 +783,7 @@ footer{
             }
         }
         .grid5, .grid6{
-            height: 80vh;
+            height: 70vh;
             padding:70px;
             margin-top:50px;
         } 
@@ -864,10 +864,9 @@ footer{
         
         .grid1, .grid2, .grid3, .grid4, .grid5, .grid6{
              width: 1000px;
-             height: 90vh;
         }
         .grid1, .grid2, .grid3, .grid4{
-    
+            height: 60vh;
             width:inherit;
             
         }   
@@ -878,15 +877,15 @@ footer{
             }
         }
         .grid5, .grid6{
-            height: 90vh;
+            height: 80vh;
             padding:120px;
-            margin-top:50px;
+            margin-top:20px;
             
                 h4{
-                    font-size: 5rem;
+                    font-size: 6rem;
                 }
                 p{
-                    font-size:3rem;
+                    font-size:4rem;
                     
                 }
         } 
