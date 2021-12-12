@@ -804,13 +804,16 @@ footer .container-footer .attribution a {
     padding: 100px;
   }
   body .grid1 .grid-interno, body .grid4 .grid-interno {
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
     text-align: left;
   }
   body .grid1 .grid-interno h2, body .grid4 .grid-interno h2 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   body .grid1 .grid-interno p, body .grid4 .grid-interno p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   body .grid1 .grid-interno a, body .grid4 .grid-interno a {
     font-size: 1.2rem;
