@@ -678,3 +678,79 @@ footer{
         }
     }
 }
+
+@media(min-width: 1440px){
+    body{
+        
+        width: 100%;
+
+        header{
+            .img-header{
+                .titulo{
+                    h1{
+                        font-size: 6rem;
+                    }
+                }
+            }
+        }
+
+        .container-grid{
+                display: grid;
+                width: 100%;
+                max-width: 1440px;
+            
+            
+   
+        }
+        .grid1, .grid4{
+            padding: 150px;
+        }
+        .grid1, .grid2, .grid3, .grid4, .grid5, .grid6{
+             width: 720px;
+        }
+        .grid1, .grid2, .grid3, .grid4{
+    
+            
+            height: 70vh;
+            width:inherit;
+            
+        }   
+        .grid2, .grid3{
+            img{
+                width: inherit;
+                height: inherit;
+            }
+        }
+        .grid5, .grid6{
+            height: 80vh;
+            padding:70px;
+        } 
+            
+            .grid-interno{
+                h2{font-size: 1.2rem;}
+                p{font-size: .9rem;}
+                a{font-size: .8rem;}
+                
+            }
+            
+        
+    }
+
+    .client-testem{
+      
+        height: 700px;
+        .container-client{
+            flex-direction: row;
+                .client{
+                    padding: 0;
+                    height: 500px;
+                        .depo-cli{
+                            height: 270px;
+                            justify-content: center;
+                        }
+
+                }
+        }
+    }
+}
+
