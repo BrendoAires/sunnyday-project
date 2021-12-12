@@ -644,6 +644,7 @@ footer .container-footer .attribution a {
     width: 384px;
   }
   body .grid1, body .grid4 {
+    height: 40vh;
     padding: 20px 30px 20px 30px;
   }
   body .grid-interno h2 {
