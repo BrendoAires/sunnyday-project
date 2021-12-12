@@ -560,7 +560,7 @@ footer .container-footer .attribution a {
 
 @media (min-width: 425px) {
   .container-grid {
-    width: 425px;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
