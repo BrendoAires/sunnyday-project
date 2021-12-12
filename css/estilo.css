@@ -162,8 +162,12 @@ header nav .nav-bar ul li :hover {
   width: 375px;
 }
 
+.grid2, .grid3 {
+  height: 35vh;
+}
+
 .grid2 .img, .grid3 .img {
-  height: 50vh;
+  height: inherit;
   width: inherit;
 }
 
@@ -219,7 +223,7 @@ header nav .nav-bar ul li :hover {
 .grid1, .grid4 {
   padding: 20px;
   width: inherit;
-  height: 60vh;
+  height: 50vh;
 }
 
 .grid1 .grid-interno, .grid4 .grid-interno {
@@ -282,7 +286,7 @@ header nav .nav-bar ul li :hover {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  height: 70vh;
+  height: 50vh;
   position: relative;
   width: inherit;
 }
@@ -566,12 +570,16 @@ footer .container-footer .attribution a {
     width: 100%;
     max-width: 425px;
   }
-  body .grid2, body .grid3 {
+  body .container-grid .grid2, body .container-grid .grid3 {
+    width: 100%;
+    height: 50vh;
+  }
+  body .container-grid .grid2 .img, body .container-grid .grid3 .img {
+    height: inherit;
+  }
+  body .container-grid .grid1, body .container-grid .grid4 {
     width: 100%;
     height: 60vh;
-  }
-  body .grid2 .img, body .grid3 .img {
-    height: inherit;
   }
 }
 
