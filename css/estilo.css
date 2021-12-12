@@ -635,12 +635,9 @@ footer .container-footer .attribution a {
     -ms-grid-row: 3;
     grid-row: 3;
   }
-  body .grid5, body .grid6 {
+  body .grid1, body .grid2, body .grid3, body .grid4, body .grid5, body .grid6 {
     height: 60vh;
     width: 384px;
-  }
-  body .grid1, body .grid2, body .grid3, body .grid4 {
-    height: 60vh;
   }
   body .grid1, body .grid4 {
     padding: 20px 10px 20px 10px;
