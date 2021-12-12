@@ -542,6 +542,28 @@ footer{
     body{
         width: 100%;
 
+
+        header{
+        
+                .img-header{
+                    background: url("/img/desktop/image-header.jpg") top;
+                    background-size: 100% 80%;
+                    
+                }  
+        
+                .titulo{
+                    
+                        img{
+                            margin-top: 40px;
+                           height: 20%;
+                        
+                        }
+                        
+                        
+                }
+            }
+        
+
         .container-grid{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
