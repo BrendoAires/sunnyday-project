@@ -851,4 +851,95 @@ footer .container-footer .attribution a {
     font-size: 1.1rem;
   }
 }
+
+@media (min-width: 2000px) {
+  body {
+    width: 100%;
+  }
+  body header .img-header .titulo h1 {
+    font-size: 7rem;
+  }
+  body .container-grid {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    max-width: 2000px;
+  }
+  body .grid1, body .grid2, body .grid3, body .grid4, body .grid5, body .grid6 {
+    width: 1000px;
+    height: 90vh;
+  }
+  body .grid1, body .grid2, body .grid3, body .grid4 {
+    width: inherit;
+  }
+  body .grid2 img, body .grid3 img {
+    width: inherit;
+    height: inherit;
+  }
+  body .grid5, body .grid6 {
+    height: 90vh;
+    padding: 120px;
+    margin-top: 50px;
+  }
+  body .grid5 h4, body .grid6 h4 {
+    font-size: 5rem;
+  }
+  body .grid5 p, body .grid6 p {
+    font-size: 3rem;
+  }
+  body .grid1, body .grid4 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 100px;
+  }
+  body .grid1 .grid-interno, body .grid4 .grid-interno {
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    text-align: left;
+  }
+  body .grid1 .grid-interno h2, body .grid4 .grid-interno h2 {
+    font-size: 5rem;
+  }
+  body .grid1 .grid-interno p, body .grid4 .grid-interno p {
+    font-size: 1.6rem;
+  }
+  body .grid1 .grid-interno a, body .grid4 .grid-interno a {
+    font-size: 1.4rem;
+    width: 200px;
+    height: 21px;
+  }
+  .client-testem {
+    height: 700px;
+  }
+  .client-testem h1 {
+    font-size: 4rem;
+  }
+  .client-testem .container-client {
+    margin: 0 70px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .client-testem .container-client .client {
+    padding: 0 30px;
+    height: 500px;
+  }
+  .client-testem .container-client .client .depo-cli {
+    font-size: 2rem;
+    height: 270px;
+    line-height: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .client-testem .container-client .client cite {
+    font-size: 1.6rem;
+  }
+  .client-testem .container-client .client .cargo {
+    font-size: 1.5rem;
+  }
+}
 /*# sourceMappingURL=estilo.css.map */
