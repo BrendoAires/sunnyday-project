@@ -642,13 +642,13 @@ footer .container-footer .attribution a {
   body .grid1, body .grid4 {
     padding: 20px 10px 20px 10px;
   }
-  body .grid-interno h2 {
+  body .grid1 .grid-interno h2, body .grid4 .grid-interno h2 {
     font-size: 1.1rem;
   }
-  body .grid-interno p {
+  body .grid1 .grid-interno p, body .grid4 .grid-interno p {
     font-size: .8rem;
   }
-  body .grid-interno a {
+  body .grid1 .grid-interno a, body .grid4 .grid-interno a {
     font-size: .7rem;
   }
   .client-testem {
