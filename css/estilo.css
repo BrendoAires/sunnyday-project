@@ -70,11 +70,11 @@ header .titulo {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin-top: 170px;
+  margin-top: 130px;
 }
 
 header .titulo img {
-  margin-top: 50px;
+  margin-top: 30px;
   height: 15%;
 }
 
@@ -577,9 +577,12 @@ footer .container-footer .attribution a {
   body {
     width: 100%;
   }
+  body header {
+    height: 75vh;
+  }
   body header .img-header {
     background: url("/img/desktop/image-header.jpg") top;
-    background-size: 100% 80%;
+    background-size: 100% 100%;
   }
   body header .titulo img {
     margin-top: 40px;
@@ -679,8 +682,15 @@ footer .container-footer .attribution a {
   body {
     width: 100%;
   }
+  body header .img-header {
+    background-size: 100% 80%;
+  }
   body header .img-header .titulo h1 {
     font-size: 4rem;
+  }
+  body header .img-header .titulo img {
+    margin-top: 40px;
+    height: 20%;
   }
   body .container-grid {
     max-width: 1024px;
