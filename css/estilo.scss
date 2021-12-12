@@ -618,3 +618,59 @@ footer{
         }
     }
 }
+
+@media(min-width: 1024px){
+    body{
+        width: 100%;
+
+        header{
+            .img-header{
+                .titulo{
+                    h1{
+                        font-size: 4rem;
+                    }
+                }
+            }
+        }
+
+        .container-grid{
+            max-width: 1024px;
+   
+        }
+        .grid1, .grid2, .grid3, .grid4, .grid5, .grid6{
+             width: 512px;
+        }
+        .grid1, .grid4{
+    
+            padding: 30px 40px 30px 40px;
+            width:inherit;
+            
+        }   
+            
+            .grid-interno{
+                h2{font-size: 1.2rem;}
+                p{font-size: .9rem;}
+                a{font-size: .8rem;}
+                
+            }
+            
+        
+    }
+
+    .client-testem{
+      
+        height: 700px;
+        .container-client{
+            flex-direction: row;
+                .client{
+                    padding: 0;
+                    height: 500px;
+                        .depo-cli{
+                            height: 270px;
+                            justify-content: center;
+                        }
+
+                }
+        }
+    }
+}

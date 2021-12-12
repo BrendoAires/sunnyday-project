@@ -669,4 +669,51 @@ footer .container-footer .attribution a {
             justify-content: center;
   }
 }
+
+@media (min-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  body header .img-header .titulo h1 {
+    font-size: 4rem;
+  }
+  body .container-grid {
+    max-width: 1024px;
+  }
+  body .grid1, body .grid2, body .grid3, body .grid4, body .grid5, body .grid6 {
+    width: 512px;
+  }
+  body .grid1, body .grid4 {
+    padding: 30px 40px 30px 40px;
+    width: inherit;
+  }
+  body .grid-interno h2 {
+    font-size: 1.2rem;
+  }
+  body .grid-interno p {
+    font-size: .9rem;
+  }
+  body .grid-interno a {
+    font-size: .8rem;
+  }
+  .client-testem {
+    height: 700px;
+  }
+  .client-testem .container-client {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .client-testem .container-client .client {
+    padding: 0;
+    height: 500px;
+  }
+  .client-testem .container-client .client .depo-cli {
+    height: 270px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=estilo.css.map */
