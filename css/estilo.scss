@@ -555,12 +555,10 @@ footer{
             width: 100%;
    
         }
-        .grid1, .grid4{
-            height: 40vh;
-        }
+        
         .grid1, .grid2, .grid3, .grid4, .grid5, .grid6{
              width: 384px;
-             height: 60vh;
+             height: 40vh;
         }
         .grid1{
             grid-column: 1/2;
@@ -593,14 +591,16 @@ footer{
             grid-column: 2/2;
             grid-row: 3;
         }
+        .grid5, .grid6{
+            height:50vh;
+        }
 
         .grid1, .grid4{
     
             padding: 20px 30px 20px 30px;
-            width:inherit;
-            
-            
-        }   
+           
+        } 
+
             
             .grid-interno{
                 h2{font-size: 1.2rem;}

@@ -596,12 +596,9 @@ footer .container-footer .attribution a {
     margin: 0 auto;
     width: 100%;
   }
-  body .grid1, body .grid4 {
-    height: 40vh;
-  }
   body .grid1, body .grid2, body .grid3, body .grid4, body .grid5, body .grid6 {
     width: 384px;
-    height: 60vh;
+    height: 40vh;
   }
   body .grid1 {
     -ms-grid-column: 1;
@@ -642,9 +639,11 @@ footer .container-footer .attribution a {
     -ms-grid-row: 3;
     grid-row: 3;
   }
+  body .grid5, body .grid6 {
+    height: 50vh;
+  }
   body .grid1, body .grid4 {
     padding: 20px 30px 20px 30px;
-    width: inherit;
   }
   body .grid-interno h2 {
     font-size: 1.2rem;
