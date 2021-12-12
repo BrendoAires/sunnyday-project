@@ -331,6 +331,7 @@ header{
 
 
 .client-testem{
+    border: 1px solid red;
     flex-direction: column;
     width: inherit;
     height: 1400px;
@@ -522,6 +523,7 @@ footer{
         .container-grid{
             width:100%;
             max-width: 425px;
+            border: 1px solid red;
         }
             .grid2, .grid3{
                 width: 100%;
