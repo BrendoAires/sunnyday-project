@@ -549,9 +549,18 @@ footer .container-footer .attribution {
   font-family: var(--ff-barlow);
   font-size: .8rem;
   color: var(--clr-dark-blue);
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 footer .container-footer .attribution a {
   color: var(--clr-white);
+}
+
+@media (min-width: 425px) {
+  .container-grid {
+    width: 425px;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */

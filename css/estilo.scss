@@ -506,6 +506,7 @@ footer{
         font-family: var(--ff-barlow);
         font-size: .8rem;
         color: var(--clr-dark-blue);
+        justify-content:end;
         
         a{
             color: var(--clr-white);
@@ -513,5 +514,8 @@ footer{
     }
     
 }
+}
+@media(min-width: 425px){
+    .container-grid{width:425px;}
 }
 
