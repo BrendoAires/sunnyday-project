@@ -206,10 +206,6 @@ header nav .nav-bar ul li :hover {
   grid-row: 6;
 }
 
-.container-grid > div {
-  height: 600px;
-}
-
 #bd-yellow:hover {
   padding: 0 3px 0 3px;
   border-bottom: 10px solid var(--clr-yellow);
@@ -224,7 +220,6 @@ header nav .nav-bar ul li :hover {
   padding: 20px;
   width: inherit;
   height: 60vh;
-  border: 1px solid red;
 }
 
 .grid1 .grid-interno, .grid4 .grid-interno {
@@ -246,9 +241,9 @@ header nav .nav-bar ul li :hover {
 }
 
 .grid1 .grid-interno h2, .grid4 .grid-interno h2 {
+  margin-top: 20px;
   color: var(--clr-very-blue);
   font-size: 2rem;
-  margin: 0 auto;
   font-family: var(--ff-fraunces);
   margin-bottom: 30px;
 }
@@ -266,13 +261,13 @@ header nav .nav-bar ul li :hover {
   margin-top: 30px;
   font-family: var(--ff-fraunces);
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: .8rem;
   font-weight: 900;
   letter-spacing: 2px;
   color: var(--clr-very-blue);
   padding-bottom: 0;
   width: 150px;
-  height: 20px;
+  height: 18px;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
@@ -287,7 +282,7 @@ header nav .nav-bar ul li :hover {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  height: 60vh;
+  height: 70vh;
   position: relative;
   width: inherit;
 }
@@ -319,12 +314,11 @@ header nav .nav-bar ul li :hover {
   text-align: center;
   bottom: 20px;
   margin: 50px;
-  width: 60%;
   z-index: 1;
 }
 
 .grid5 .cont h4, .grid6 .cont h4 {
-  font-size: 35px;
+  font-size: 2rem;
   font-family: var(--ff-fraunces);
   font-weight: 900;
   margin-bottom: 30px;
@@ -332,8 +326,8 @@ header nav .nav-bar ul li :hover {
 
 .grid5 .cont p, .grid6 .cont p {
   font-family: var(--ff-barlow);
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 20px;
   font-weight: bold;
 }
 
