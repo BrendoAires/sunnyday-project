@@ -80,7 +80,7 @@ header .titulo img {
 
 header .titulo h1 {
   color: var(--clr-white);
-  font-size: 2em;
+  font-size: 3em;
   font-family: var(--ff-fraunces);
   font-weight: 700;
   text-transform: uppercase;
@@ -562,6 +562,7 @@ footer .container-footer .attribution a {
   }
   body .container-grid {
     width: inherit;
+    max-width: 100%;
   }
   body .container-grid .grid2, body .container-grid .grid3 {
     width: inherit;

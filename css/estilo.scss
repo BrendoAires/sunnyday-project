@@ -81,7 +81,7 @@ header{
                 h1{
                     
                     color: var(--clr-white);
-                    font-size: 2em;
+                    font-size: 3em;
                     font-family: var(--ff-fraunces);
                     font-weight: 700;
                     text-transform: uppercase;
@@ -521,7 +521,7 @@ footer{
         .container-grid{
             
            width:inherit;
-            
+            max-width: 100%;
             
         
             .grid2, .grid3{
