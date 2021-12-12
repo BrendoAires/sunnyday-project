@@ -774,14 +774,25 @@ footer{
     .client-testem{
       
         height: 700px;
+        h1{
+            font-size: 2rem;
+        }
         .container-client{
+            margin: 0 70px;
             flex-direction: row;
                 .client{
-                    padding: 0;
+                    padding: 0 30px;
                     height: 500px;
                         .depo-cli{
+                            font-size: 1rem;
                             height: 270px;
                             justify-content: center;
+                        }
+                        cite{
+                            font-size: 1.2rem;
+                        }
+                        .cargo{
+                            font-size: 1.1rem;
                         }
 
                 }

@@ -823,21 +823,32 @@ footer .container-footer .attribution a {
   .client-testem {
     height: 700px;
   }
+  .client-testem h1 {
+    font-size: 2rem;
+  }
   .client-testem .container-client {
+    margin: 0 70px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
   .client-testem .container-client .client {
-    padding: 0;
+    padding: 0 30px;
     height: 500px;
   }
   .client-testem .container-client .client .depo-cli {
+    font-size: 1rem;
     height: 270px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .client-testem .container-client .client cite {
+    font-size: 1.2rem;
+  }
+  .client-testem .container-client .client .cargo {
+    font-size: 1.1rem;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
