@@ -375,22 +375,22 @@ header{
                 font-family: var(--ff-barlow);
                 font-weight: 600;
                 color: var(--clr-very-gray-blue);
-                font-size: 1rem;
+                font-size: .8rem;
                 text-align: center;
-                line-height: 3rem;
+                line-height: 1.6rem;
                 padding: 0 1.2rem 1rem 1.2rem ;
             }
 
             cite{
                 margin: 10px 0 20px 0;
-                font-size: 1.1rem;
+                font-size: 1rem;
                 font-weight: 1000;
                 font-family: var(--ff-fraunces);
                 color: var(--clr-very-blue);
             }
 
             .cargo-cli{
-                font-size: 1rem;
+                font-size: .9rem;
                 font-family: var(--ff-barlow);
                 color:var(--clr-grayish-blue);
                 font-weight: 200;
