@@ -817,6 +817,8 @@ footer .container-footer .attribution a {
   }
   body .grid1 .grid-interno a, body .grid4 .grid-interno a {
     font-size: 1.2rem;
+    width: 200px;
+    height: 21px;
   }
   .client-testem {
     height: 700px;
