@@ -684,7 +684,7 @@ footer .container-footer .attribution a {
     width: 512px;
   }
   body .grid1, body .grid4 {
-    padding: 30px 20px 30px 20px;
+    padding: 30px 40px 30px 40px;
     width: inherit;
   }
   body .grid5, body .grid6 {
@@ -781,14 +781,11 @@ footer .container-footer .attribution a {
     width: 100%;
     max-width: 1440px;
   }
-  body .grid1, body .grid4 {
-    padding: 150px;
-  }
   body .grid1, body .grid2, body .grid3, body .grid4, body .grid5, body .grid6 {
     width: 720px;
+    height: 80vh;
   }
   body .grid1, body .grid2, body .grid3, body .grid4 {
-    height: 70vh;
     width: inherit;
   }
   body .grid2 img, body .grid3 img {
@@ -799,13 +796,20 @@ footer .container-footer .attribution a {
     height: 80vh;
     padding: 70px;
   }
-  body .grid-interno h2 {
+  body .gri1, body .grid4 {
+    border: 1px solid red;
+  }
+  body .gri1 .grid-interno, body .grid4 .grid-interno {
+    border: 1px solid red;
+    text-align: left;
+  }
+  body .gri1 .grid-interno h2, body .grid4 .grid-interno h2 {
     font-size: 1.2rem;
   }
-  body .grid-interno p {
+  body .gri1 .grid-interno p, body .grid4 .grid-interno p {
     font-size: .9rem;
   }
-  body .grid-interno a {
+  body .gri1 .grid-interno a, body .grid4 .grid-interno a {
     font-size: .8rem;
   }
   .client-testem {

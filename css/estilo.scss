@@ -737,8 +737,6 @@ footer{
         }
         .grid1, .grid2, .grid3, .grid4{
     
-            
-            
             width:inherit;
             
         }   
@@ -752,13 +750,17 @@ footer{
             height: 80vh;
             padding:70px;
         } 
-            
-            .grid-interno{
-                h2{font-size: 1.2rem;}
-                p{font-size: .9rem;}
-                a{font-size: .8rem;}
-                
-            }
+            .gri1, .grid4{
+                border: 1px solid red;
+                .grid-interno{
+                    border: 1px solid red;
+                    text-align: left;
+                    h2{font-size: 1.2rem;}
+                    p{font-size: .9rem;}
+                    a{font-size: .8rem;}
+                    
+                }
+        }
             
         
     }
