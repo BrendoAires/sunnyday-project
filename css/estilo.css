@@ -687,7 +687,7 @@ footer .container-footer .attribution a {
   body .container-grid {
     max-width: 1024px;
   }
-  body .grid1, body .grid2, body .grid3, body .grid4, body .grid5, body .grid6 {
+  body .grid1, body .grid2, body .grid3, body .grid4 {
     width: 512px;
   }
   body .grid1, body .grid4 {
