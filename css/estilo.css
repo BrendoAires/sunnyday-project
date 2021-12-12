@@ -561,18 +561,18 @@ footer .container-footer .attribution a {
     width: 100%;
   }
   body .container-grid {
-    width: 100%;
+    width: inherit;
   }
   body .container-grid .grid2, body .container-grid .grid3 {
-    width: 100%;
-    height: 50vh;
+    width: inherit;
+    height: 40vh;
   }
   body .container-grid .grid2 .img, body .container-grid .grid3 .img {
     height: inherit;
   }
   body .container-grid .grid1, body .container-grid .grid4 {
     width: 100%;
-    height: 60vh;
+    height: 55vh;
   }
 }
 
