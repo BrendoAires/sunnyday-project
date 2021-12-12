@@ -533,7 +533,7 @@ footer{
             }
             .grid1, .grid4{
                 width: 100%;
-                height: 55vh;
+                height: 50vh;
             }
         }
     }
@@ -595,11 +595,14 @@ footer{
             width: 384px;
         }
 
-        .grid1, .grid4{
+        .grid1, .grid2, .grid3, .grid4{
             height:40vh;
-            padding: 20px 30px 20px 30px;
            
         } 
+        .grid1, .grid4{
+
+            padding: 20px 30px 20px 30px;
+        }
 
             
             .grid-interno{

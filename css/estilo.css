@@ -573,7 +573,7 @@ footer .container-footer .attribution a {
   }
   body .container-grid .grid1, body .container-grid .grid4 {
     width: 100%;
-    height: 55vh;
+    height: 50vh;
   }
 }
 
@@ -642,8 +642,10 @@ footer .container-footer .attribution a {
     height: 50vh;
     width: 384px;
   }
-  body .grid1, body .grid4 {
+  body .grid1, body .grid2, body .grid3, body .grid4 {
     height: 40vh;
+  }
+  body .grid1, body .grid4 {
     padding: 20px 30px 20px 30px;
   }
   body .grid-interno h2 {
