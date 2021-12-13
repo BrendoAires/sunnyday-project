@@ -611,9 +611,21 @@ footer{
         }
         
 
-        .grid1, .grid2, .grid3, .grid4, .grid5, .grid6{
+        .grid1, .grid2, .grid3, .grid4{
             height:50vh;
         } 
+        .grid5, .grid6{
+            height: 60vh;
+                .cont{
+                    h4{
+                        font-size: 1.3rem;
+                    }
+                    p{
+                        font-size: .9rem;
+                    }
+                }
+
+        }
         .grid1, .grid4{
             
             padding: 20px 30px 20px 30px;
@@ -673,7 +685,7 @@ footer{
         .container-grid{
             max-width: 1024px;
    
-        }
+        
         .grid1, .grid2, .grid3, .grid4{
              width: 512px;
         }
@@ -694,7 +706,7 @@ footer{
                 a{font-size: .8rem;}
                 
             }
-            
+        }  
         
     }
 
