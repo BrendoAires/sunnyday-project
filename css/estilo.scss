@@ -916,10 +916,11 @@ footer{
             margin-top:20px;
             .cont{
                 h4{
-                    font-size: 8rem;
+                    font-size: 4rem;
                 }
                 p{
-                    font-size:6rem;
+                    font-size:2rem;
+                    line-height: 2rem;
                     
                 }
             }
@@ -931,11 +932,11 @@ footer{
                     align-items: left;
                     text-align: left;
                     h2{font-size: 6rem;}
-                    p{font-size: 4rem;}
+                    p{font-size: 2rem;}
                     a{
-                        font-size: 3rem;
-                        width: 200px;
-                        height:21px;
+                        font-size: 2rem;
+                        width: 300px;
+                        height:31px;
                         }
                     
                 }
@@ -949,7 +950,7 @@ footer{
         
         height: 700px;
         h1{
-            font-size: 8rem;
+            font-size: 4rem;
         }
         .container-client{
             margin: 0 70px;
@@ -958,16 +959,16 @@ footer{
                     padding: 0 30px;
                     height: 500px;
                         .depo-cli{
-                            font-size: 6rem;
+                            font-size: 2rem;
                             height: 270px;
                             line-height: 30px;
                             justify-content: center;
                         }
                         cite{
-                            font-size: 4rem;
+                            font-size: 2rem;
                         }
                         .cargo{
-                            font-size: 3rem;
+                            font-size: 1.4rem;
                         }
 
                 }
