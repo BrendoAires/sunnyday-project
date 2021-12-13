@@ -797,11 +797,7 @@ footer .container-footer .attribution a {
     max-width: 1440px;
   }
   body .container-grid .grid1, body .container-grid .grid2, body .container-grid .grid3, body .container-grid .grid4, body .container-grid .grid5, body .container-grid .grid6 {
-    width: 720px;
     height: 60vh;
-  }
-  body .container-grid .grid1, body .container-grid .grid2, body .container-grid .grid3, body .container-grid .grid4 {
-    width: inherit;
   }
   body .container-grid .grid2 img, body .container-grid .grid3 img {
     width: inherit;
