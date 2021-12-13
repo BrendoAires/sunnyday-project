@@ -575,7 +575,7 @@ footer{
             margin: 0 auto;
             width: 100%;
    
-        }
+        
         
         
         .grid1{
@@ -633,12 +633,13 @@ footer{
 
             
             .grid-interno{
-                h2{font-size: 1.3rem;}
+                h2{font-size: 1.4rem;}
                 p{font-size: .9rem;}
                 a{font-size: .8rem;}
                 
             }
         }
+    }
             
         
     }
@@ -688,6 +689,7 @@ footer{
         
         .grid1, .grid2, .grid3, .grid4{
              width: 512px;
+             height: 60vh;
         }
         .grid1, .grid4{
     
@@ -698,6 +700,7 @@ footer{
         .grid5, .grid6{
             height: 70vh;
             padding:50px;
+            margin-top: 30px;
         } 
             
             .grid-interno{
