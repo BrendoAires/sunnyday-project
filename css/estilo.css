@@ -804,6 +804,9 @@ footer .container-footer .attribution a {
   body {
     width: 100%;
   }
+  body header {
+    height: 60vh;
+  }
   body header .img-header {
     background-size: 100% 100%;
   }
