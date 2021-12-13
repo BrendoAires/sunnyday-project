@@ -868,7 +868,7 @@ footer{
     }
     }
 }
-/*@media(min-width: 2000px){
+@media(min-width: 2000px){
     body{
         
         width: 100%;
@@ -914,14 +914,15 @@ footer{
             height: 80vh;
             padding:120px;
             margin-top:20px;
-            
+            .cont{
                 h4{
-                    font-size: 6rem;
+                    font-size: 8rem;
                 }
                 p{
-                    font-size:4rem;
+                    font-size:6rem;
                     
                 }
+            }
         } 
             .grid1, .grid4{
                 justify-content: center;
@@ -930,9 +931,9 @@ footer{
                     align-items: left;
                     text-align: left;
                     h2{font-size: 5rem;}
-                    p{font-size: 1.6rem;}
+                    p{font-size: 3rem;}
                     a{
-                        font-size: 1.4rem;
+                        font-size: 2rem;
                         width: 200px;
                         height:21px;
                         }
@@ -956,20 +957,61 @@ footer{
                     padding: 0 30px;
                     height: 500px;
                         .depo-cli{
-                            font-size: 2rem;
+                            font-size: 4rem;
                             height: 270px;
                             line-height: 30px;
                             justify-content: center;
                         }
                         cite{
-                            font-size: 1.6rem;
+                            font-size: 3rem;
                         }
                         .cargo{
-                            font-size: 1.5rem;
+                            font-size: 2.5rem;
                         }
 
                 }
         }
     }
-}*/
+
+
+    footer{
+        
+    
+        .container-footer{
+            
+    
+            .nav-footer{
+            
+                .nav-brand{
+                    h3{
+                        
+                        font-size: 3rem;
+                    }
+                }
+                
+            
+                
+                li a{
+                    font-size: 1.5rem;
+                    
+    
+                }
+        }
+        
+        
+    
+        
+    
+        .attribution{
+            font-size: 1.5rem;
+            
+            
+        }
+        
+    }
+    }
+
+
+    
+}
 
