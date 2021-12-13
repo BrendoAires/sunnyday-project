@@ -945,13 +945,13 @@ footer .container-footer .attribution a {
     text-align: left;
   }
   body .grid1 .grid-interno h2, body .grid4 .grid-interno h2 {
-    font-size: 5rem;
+    font-size: 6rem;
   }
   body .grid1 .grid-interno p, body .grid4 .grid-interno p {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   body .grid1 .grid-interno a, body .grid4 .grid-interno a {
-    font-size: 2rem;
+    font-size: 3rem;
     width: 200px;
     height: 21px;
   }
@@ -959,7 +959,7 @@ footer .container-footer .attribution a {
     height: 700px;
   }
   .client-testem h1 {
-    font-size: 4rem;
+    font-size: 8rem;
   }
   .client-testem .container-client {
     margin: 0 70px;
@@ -973,7 +973,7 @@ footer .container-footer .attribution a {
     height: 500px;
   }
   .client-testem .container-client .client .depo-cli {
-    font-size: 4rem;
+    font-size: 6rem;
     height: 270px;
     line-height: 30px;
     -webkit-box-pack: center;
@@ -981,10 +981,10 @@ footer .container-footer .attribution a {
             justify-content: center;
   }
   .client-testem .container-client .client cite {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .client-testem .container-client .client .cargo {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   footer .container-footer .nav-footer .nav-brand h3 {
     font-size: 3rem;
