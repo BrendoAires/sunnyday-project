@@ -534,8 +534,8 @@ footer{
                 width: inherit;
                 height: 50vh;
             }
-            1.6 .8
             .grid5, .grid6{
+                
                 .cont{
                     h4{font-size:1.6rem}
                     p{font-size: .8rem}
@@ -702,20 +702,21 @@ footer{
     
             padding: 30px 40px 30px 40px;
             width:inherit;
-            
-        }   
-        .grid5, .grid6{
-            height: 70vh;
-            padding:50px;
-            margin-top: 30px;
-        } 
-            
             .grid-interno{
                 h2{font-size: 1.2rem;}
                 p{font-size: .9rem;}
                 a{font-size: .8rem;}
                 
             }
+            
+        }   
+        .grid5, .grid6{
+            height: 70vh;
+            padding:50px;
+            margin-top: 50px;
+        } 
+            
+            
         }  
         
     }

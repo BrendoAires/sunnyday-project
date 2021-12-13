@@ -571,12 +571,10 @@ footer .container-footer .attribution a {
     width: inherit;
     height: 50vh;
   }
-  body .container-grid 1.6 .8
-.grid5 .cont h4, body .container-grid .grid6 .cont h4 {
+  body .container-grid .grid5 .cont h4, body .container-grid .grid6 .cont h4 {
     font-size: 1.6rem;
   }
-  body .container-grid 1.6 .8
-.grid5 .cont p, body .container-grid .grid6 .cont p {
+  body .container-grid .grid5 .cont p, body .container-grid .grid6 .cont p {
     font-size: .8rem;
   }
 }
@@ -720,19 +718,19 @@ footer .container-footer .attribution a {
     padding: 30px 40px 30px 40px;
     width: inherit;
   }
+  body .container-grid .grid1 .grid-interno h2, body .container-grid .grid4 .grid-interno h2 {
+    font-size: 1.2rem;
+  }
+  body .container-grid .grid1 .grid-interno p, body .container-grid .grid4 .grid-interno p {
+    font-size: .9rem;
+  }
+  body .container-grid .grid1 .grid-interno a, body .container-grid .grid4 .grid-interno a {
+    font-size: .8rem;
+  }
   body .container-grid .grid5, body .container-grid .grid6 {
     height: 70vh;
     padding: 50px;
-    margin-top: 30px;
-  }
-  body .container-grid .grid-interno h2 {
-    font-size: 1.2rem;
-  }
-  body .container-grid .grid-interno p {
-    font-size: .9rem;
-  }
-  body .container-grid .grid-interno a {
-    font-size: .8rem;
+    margin-top: 50px;
   }
   .client-testem {
     height: 700px;
