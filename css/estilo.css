@@ -898,6 +898,9 @@ footer .container-footer .attribution a {
   body {
     width: 100%;
   }
+  body header {
+    height: 75vh;
+  }
   body header .img-header .titulo h1 {
     font-size: 7rem;
   }
