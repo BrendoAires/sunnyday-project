@@ -808,6 +808,9 @@ footer .container-footer .attribution a {
     padding: 70px;
     margin-top: 50px;
   }
+  body .container-grid .grid5 .cont p, body .container-grid .grid6 .cont p {
+    padding: 10px 40px;
+  }
   body .container-grid .grid1, body .container-grid .grid4 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
