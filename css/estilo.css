@@ -910,47 +910,47 @@ footer .container-footer .attribution a {
     width: 100%;
     max-width: 2000px;
   }
-  body .grid1, body .grid2, body .grid3, body .grid4, body .grid5, body .grid6 {
+  body .container-grid .grid1, body .container-grid .grid2, body .container-grid .grid3, body .container-grid .grid4, body .container-grid .grid5, body .container-grid .grid6 {
     width: 1000px;
   }
-  body .grid1, body .grid2, body .grid3, body .grid4 {
+  body .container-grid .grid1, body .container-grid .grid2, body .container-grid .grid3, body .container-grid .grid4 {
     height: 60vh;
     width: inherit;
   }
-  body .grid2 img, body .grid3 img {
+  body .container-grid .grid2 img, body .container-grid .grid3 img {
     width: inherit;
     height: inherit;
   }
-  body .grid5, body .grid6 {
+  body .container-grid .grid5, body .container-grid .grid6 {
     height: 80vh;
     padding: 120px;
     margin-top: 20px;
   }
-  body .grid5 .cont h4, body .grid6 .cont h4 {
+  body .container-grid .grid5 .cont h4, body .container-grid .grid6 .cont h4 {
     font-size: 8rem;
   }
-  body .grid5 .cont p, body .grid6 .cont p {
+  body .container-grid .grid5 .cont p, body .container-grid .grid6 .cont p {
     font-size: 6rem;
   }
-  body .grid1, body .grid4 {
+  body .container-grid .grid1, body .container-grid .grid4 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     padding: 100px;
   }
-  body .grid1 .grid-interno, body .grid4 .grid-interno {
+  body .container-grid .grid1 .grid-interno, body .container-grid .grid4 .grid-interno {
     -webkit-box-align: left;
         -ms-flex-align: left;
             align-items: left;
     text-align: left;
   }
-  body .grid1 .grid-interno h2, body .grid4 .grid-interno h2 {
+  body .container-grid .grid1 .grid-interno h2, body .container-grid .grid4 .grid-interno h2 {
     font-size: 6rem;
   }
-  body .grid1 .grid-interno p, body .grid4 .grid-interno p {
+  body .container-grid .grid1 .grid-interno p, body .container-grid .grid4 .grid-interno p {
     font-size: 4rem;
   }
-  body .grid1 .grid-interno a, body .grid4 .grid-interno a {
+  body .container-grid .grid1 .grid-interno a, body .container-grid .grid4 .grid-interno a {
     font-size: 3rem;
     width: 200px;
     height: 21px;
