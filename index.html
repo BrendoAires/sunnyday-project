@@ -2,12 +2,17 @@
 <html lang="pt">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="description" content="Desafio para o site the Odin Project. Desafio em html, css e javascript">
-    
+    <meta property="og:title" content="Sunny Side">
+
+
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
+
+
 
     <title>Frontend Mentor | Sunnyside agency landing page</title>
 
@@ -18,23 +23,38 @@
         <div class="titulo">
           <h1>We are creatives</h1>
           
+          
           <img src="/img/seta.png">
         </div>
           
       </div>
+      
 
       <nav class="flex">
           <div class="nav-brand">
               <a href="index.html"><h3>sunnyside</h3></a>
           </div>
-          <div class="nav-bar">
-            <ul>
+          
+            
+  
+            <ul class="nav-menu flex">
               <li><a href="#">About</a></li>
               <li><a href="#">Services</a></li>
               <li><a href="#">Projects</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
-          </div>
+
+            
+            <div class="menu-drop" id="menu-drop">
+              
+              <ul class="menu-responsivo">
+                <li class="item"><a href="#">About</a></li>
+                <li class="item"><a href="#">Services</a></li>
+                <li class="item"><a href="#">Projects</a></li>
+                <li class="item"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          
       </nav>
     </header>
 
@@ -44,7 +64,8 @@
           <div class="grid-interno">
           
             <h2>Transform your brand</h2>
-    
+           
+            <a href="#" id="menu" class="menu-button">jjkjn<i class="icon-menu"></i></a>
             <p> 
               We are a full-service creative agency specializing in helping brands grow fast. 
               Engage your clients through compelling visuals that do most of the marketing for you.
@@ -211,6 +232,8 @@
       </div>
       
     </footer>
+    <script src="/js/script.js">
 
-  </body>
+    </script>
+</body>
 </html>

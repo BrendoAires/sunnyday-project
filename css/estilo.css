@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
 :root {
   /*------WIDTH------*/
@@ -25,6 +26,7 @@
   --fw-900: 900;
 }
 
+/*------menu responsivo------*/
 body {
   font-size: var(--fs-18);
   background: var(--clr-white);
@@ -997,4 +999,90 @@ footer .container-footer .attribution a {
     font-size: 1.5rem;
   }
 }
+
+/*--------menu-responsivo--------*/
+ul.nav-menu {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 3em;
+  line-height: 4em;
+  width: 100%;
+}
+
+/* Coloca os itens da lista do Menu lado a lado, e flutua os itens para a esquerda */
+ul.nav-menu li {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-size: 0.9em;
+  font-family: var(--ff-barlow);
+}
+
+/* Estilo dos links dentro da lista */
+ul.nav-menu li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  height: 3em;
+  line-height: 3em;
+  padding: 0 0.3em 0 0.3em;
+  outline: 0;
+}
+
+/* Altera a cor do link quando passa o mouse em cima*/
+ul.nav-menu li a:hover {
+  color: var(--clr-white);
+}
+
+/* Esconde os itens da lista quando a resolução da tela for pequena */
+ul.nav-menu li.icon {
+  display: none;
+}
+
+/* Quando a tela é menor do que 680 pixels de largura, ocultar todos os itens da lista. 
+    Mostra o item da lista que contém o link para abrir e fechar a nav superior (li.icon) */
+@media screen and (max-width: 768px) {
+  ul.nav-menu li {
+    display: none;
+  }
+  ul.nav-menu li.icon {
+    float: right;
+    /*O ícone será exibido ao lado direito*/
+    display: inline-block;
+  }
+}
+
+/*A classe responsiva é adicionada à ul superior com o JavaScript quando o usuário clica 
+        no ícone. Esta classe faz com que os itens principais do menu fiquem ok em telas menores */
+@media screen and (max-width: 768px) {
+  ul.nav-menu.responsive {
+    position: relative;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    line-height: 5px;
+    width: 100%;
+  }
+  ul.nav-menu.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.nav-menu.responsive li {
+    text-align: center;
+    float: none;
+    padding: 0;
+    display: inline;
+  }
+  ul.nav-menu.responsive li a {
+    display: block;
+    padding: 0;
+    text-align: left;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
+/*FIM DO MENU RESPONSIVO*/
 /*# sourceMappingURL=estilo.css.map */
