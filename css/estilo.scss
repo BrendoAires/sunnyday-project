@@ -106,7 +106,14 @@ header{
         justify-content: space-between;
         align-items: center;
         
-    
+        .menu-drop{
+            display: none;
+
+        }
+        a{
+            opacity: .2;
+        }
+        a:hover{opacity: 1;}
         .nav-brand{
             h3{
                 color: var(--clr-white);
@@ -558,6 +565,18 @@ footer{
 
 
         header{
+            
+            nav{
+                .menu-responsivo{
+                    display:none;
+                }
+                .menu-button{
+                    display:none;
+                }
+
+                
+            }
+
             height:75vh;
                 .img-header{
                     background: url("/img/desktop/image-header.jpg") top;

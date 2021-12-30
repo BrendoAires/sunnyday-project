@@ -105,6 +105,18 @@ header nav {
           align-items: center;
 }
 
+header nav .menu-drop {
+  display: none;
+}
+
+header nav a {
+  opacity: .2;
+}
+
+header nav a:hover {
+  opacity: 1;
+}
+
 header nav .nav-brand h3 {
   color: var(--clr-white);
   font-family: var(--ff-barlow);
@@ -587,6 +599,12 @@ footer .container-footer .attribution a {
   }
   body header {
     height: 75vh;
+  }
+  body header nav .menu-responsivo {
+    display: none;
+  }
+  body header nav .menu-button {
+    display: none;
   }
   body header .img-header {
     background: url("/img/desktop/image-header.jpg") top;
