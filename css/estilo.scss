@@ -117,12 +117,13 @@ header{
             background: var(--clr-white);
             top:7%;
             right:2%;
-            border-radius: 20px;
+            border-radius: 6px;
             
             
 
                 li{
                     color: var(--clr-dark-cyan); 
+                    z-index:11;
                 }
         }
         .nav-menu{
@@ -512,10 +513,9 @@ footer{
     .social{
         margin: 30px 0;
         padding: 10px;
-        img{
-            margin: 0 20px 0 20px;
-            width:20px;
-            height: 20px;
+        i{
+            color: var(--clr-white);
+            font-size: 20px;
             transition: .3s ease;
 
             

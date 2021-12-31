@@ -149,11 +149,12 @@ header nav .menu-drop {
   background: var(--clr-white);
   top: 7%;
   right: 2%;
-  border-radius: 20px;
+  border-radius: 6px;
 }
 
 header nav .menu-drop li {
   color: var(--clr-dark-cyan);
+  z-index: 11;
 }
 
 header nav .nav-menu {
@@ -563,10 +564,9 @@ footer .container-footer .social {
   padding: 10px;
 }
 
-footer .container-footer .social img {
-  margin: 0 20px 0 20px;
-  width: 20px;
-  height: 20px;
+footer .container-footer .social i {
+  color: var(--clr-white);
+  font-size: 20px;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
