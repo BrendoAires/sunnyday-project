@@ -145,16 +145,38 @@ header nav .menu-drop {
   display: none;
   position: absolute;
   z-index: 2;
-  width: 50%;
   background: var(--clr-white);
-  top: 7%;
-  right: 2%;
-  border-radius: 6px;
+  top: 12%;
+  right: 5%;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav .menu-drop li {
-  color: var(--clr-dark-cyan);
-  z-index: 11;
+  padding: 20px 0 20px 0;
+}
+
+header nav .menu-drop li a {
+  color: var(--clr-very-gray-blue);
+  font-family: var(--ff-barlow);
+  font-weight: 500;
+  padding: 0 20px 0 20px;
+  text-align: center;
+}
+
+header nav .active {
+  border-radius: 10px;
+  background: var(--clr-yellow);
+  text-transform: uppercase;
 }
 
 header nav .nav-menu {
@@ -572,7 +594,7 @@ footer .container-footer .social i {
 }
 
 footer .container-footer .social a :hover {
-  background: var(--clr-white);
+  background: var(--clr-dark-cyan);
 }
 
 footer .container-footer .attribution {
