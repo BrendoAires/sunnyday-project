@@ -105,10 +105,25 @@ header{
         padding: 0 10px 0 20px;
         justify-content: space-between;
         align-items: center;
-        
+        a{
+            color: white;
+        }
+
         .menu-drop{
             display: none;
+            position: absolute;
+            z-index:2;
+            width: 50%;
+            background: var(--clr-white);
+            top:7%;
+            right:2%;
+            border-radius: 20px;
+            
+            
 
+                li{
+                    color: var(--clr-dark-cyan); 
+                }
         }
         .nav-menu{
             display:none;
@@ -124,6 +139,7 @@ header{
             
 
         }
+        /*
         .nav-bar{
 
             
@@ -155,6 +171,7 @@ header{
             }
 
         }
+        */
 
     }
 }
@@ -576,6 +593,7 @@ footer{
                 .nav-menu{ 
                     display: block;
                 }
+                
 
                 
             }
