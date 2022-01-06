@@ -147,10 +147,12 @@ header nav .menu-drop {
   z-index: 2;
   background: var(--clr-white);
   width: calc(100% - 10%);
+  height: 250px;
   top: 80px;
   padding-left: calc(100% / 3);
-  -webkit-animation: abrirMenu 1s;
-          animation: abrirMenu 1s;
+  -webkit-transition: .25s all linear;
+  transition: .25s all linear;
+  opacity: 1;
 }
 
 header nav .menu-drop li {
@@ -1053,23 +1055,7 @@ footer .container-footer .attribution a {
   }
 }
 
-@-webkit-keyframes abrirMenu {
-  0% {
-    top: 0px;
-    left: 0px;
-  }
-  to {
-    top: 240px;
-  }
-}
-
-@keyframes abrirMenu {
-  0% {
-    top: 0px;
-    left: 0px;
-  }
-  to {
-    top: 240px;
-  }
+.abrir {
+  border: 1px solid red;
 }
 /*# sourceMappingURL=estilo.css.map */
