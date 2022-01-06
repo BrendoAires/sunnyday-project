@@ -881,8 +881,8 @@ footer .container-footer .attribution a {
     font-size: 2rem;
   }
   body .container-grid .grid5 .cont p, body .container-grid .grid6 .cont p {
-    font-size: 1rem;
-    padding: 10px 40px;
+    font-size: .8rem;
+    padding: 10px 30px;
   }
   body .container-grid .grid1, body .container-grid .grid4 {
     -webkit-box-pack: center;
