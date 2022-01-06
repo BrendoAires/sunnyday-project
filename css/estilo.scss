@@ -118,9 +118,7 @@ header{
             height:250px;
             top:80px;
             padding-left:calc(100% / 3);
-            transition: .25s all linear;
-            opacity:1;
-
+            
             
            
                 li{
@@ -159,37 +157,7 @@ header{
 
         }
         /*
-        .nav-bar{
-
-            
-                
-            ul{
-                padding-right: 50px;
-                    a{
-                        color: var(--clr-white);
-                        padding: 10px;
-                        transition: .3s ease-in-out;
-                        
-                    }
-                    li{
-                        display: inline;
-                        padding-left: 30px;  
-                        font-family: var(--ff-barlow);
-                        
-                        
-                        :hover{
-                            padding:10px 25px 10px 25px;
-                            background: var(--clr-white);
-                            color: var(--clr-dark-blue);
-                            border-radius: 40px;
-                            text-transform: uppercase;
-                            
-                        }
-                    }
-
-            }
-
-        }
+        
         */
 
     }
@@ -612,7 +580,38 @@ footer{
                     display: block;
                 }
                 
+                .nav-menu{
 
+            
+                
+                    
+                        padding-right: 50px;
+                            a{
+                                color: var(--clr-white);
+                                padding: 10px;
+                                transition: .3s ease-in-out;
+                                
+                            }
+                            li{
+                                display: inline;
+                                padding-left: 30px;  
+                                font-family: var(--ff-barlow);
+                                
+                                
+                                :hover{
+                                    padding:10px 25px 10px 25px;
+                                    background: var(--clr-white);
+                                    color: var(--clr-dark-blue);
+                                    border-radius: 40px;
+                                    text-transform: uppercase;
+                                    
+                                }
+                            }
+        
+                    
+        
+                }
+                
                 
             }
 
