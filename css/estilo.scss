@@ -115,9 +115,9 @@ header{
             z-index:2;
             background: var(--clr-white);
             width: calc(100% - 10%);
-            top:12%;
+            top:80px;
             padding-left:calc(100% / 3);
-            
+            animation: abrirMenu 1s ;
             
            
                 li{
@@ -133,6 +133,7 @@ header{
                     }
                     
         }
+        
     }
     .active{
         border-radius: 20px;
@@ -1075,4 +1076,9 @@ footer{
 
 
     
+}
+@keyframes abrirMenu{
+    0%{top:0px; left:0px;}
+    to{ top: 240px;}
+
 }
